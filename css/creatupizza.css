@@ -7,7 +7,7 @@
     font-family: pizzeria;
     
 }
-body {
+  body {
     margin: 0;
     padding: 0;
     background-image: url(../img/pizza0.jpg);
@@ -24,10 +24,10 @@ body {
     align-items: center;
     padding: 20px 30px;
     max-height: 50px;
-    position: fixed; /* Hace que el encabezado sea fijo */
-    top: 0; /* Lo coloca en la parte superior de la ventana */
-    width: 100%; /* Ocupa todo el ancho de la ventana */
-    z-index: 1000; /* Para asegurarse de que esté por encima de otros elementos */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
   }
   
   nav ul {
@@ -39,7 +39,7 @@ body {
   }
   
   nav li {
-    margin-left: 50px; /* Espacio entre elementos de la lista */
+    margin-left: 50px; 
     font-size:xx-large;
      
   }
@@ -81,8 +81,8 @@ body {
   #pizzero {
     width: 50px;
     height: 50px; 
-    margin-right: 60px; /* Agrega un margen derecho para evitar el corte */
-    margin-left: auto; /* Mueve la imagen hacia la derecha */
+    margin-right: 60px; 
+    margin-left: auto; 
   }
 
   #pizzero:hover {
@@ -99,16 +99,16 @@ body {
   
   .whatsapp-button a {
     display: block;
-    background-color: #25d366; /* Color de fondo del botón de WhatsApp */
+    background-color: #25d366; 
     padding: 10px;
-    border-radius: 50%; /* Para hacer un círculo */
+    border-radius: 50%; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
     text-decoration: none;
   }
 
   .whatsapp-button img {
-    width: 50px; /* Ajusta el tamaño del icono según tus preferencias */
+    width: 50px; 
     height: 50px;
     display: block;
     margin: 0 auto;
@@ -116,8 +116,8 @@ body {
 
   
   a {
-    color: white; /* Color del texto del enlace */
-    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: white; 
+    text-decoration: none; 
   }
   
 
@@ -127,13 +127,13 @@ body {
     text-align: center;
     position: fixed;
     width: 100%;
-    height: 60px; /* Aumenta la altura del footer */
+    height: 60px; 
     bottom: 0;
   }
 
   footer * {
     margin-right: 20px;
-    margin-top: 10px; /* Agrega un margen superior para centrar el contenido verticalmente */
+    margin-top: 10px; 
   }
 
   .vertical-bar {
@@ -147,7 +147,112 @@ body {
     vertical-align: middle;
   }
 
+  #principio{
+    height: 120px;
+  }
+
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
 
+  form {
+    background-image: url(../img/creatupizza1.jpg);
+    background-size: 100%;  
+    background-repeat: no-repeat; 
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 40%;
+    padding: 20px;
+    color: white;
+    height: 3000px;
+    color: white;
+  }
 
-/* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS NICOOOOOOO */
+  legend {
+    color: white;
+    padding: 10px;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+  h1{
+    color: black;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  fieldset {
+    padding: 20px;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  #espaciado{
+    height: 28px;
+  }
+
+  #input{
+    text-align: center;
+  }
+  #input input[type="button"] {
+    background-color: #FF9900;
+    width: 180px; 
+    height: 50px; 
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .esp{
+    margin-left: 120px;
+  }
+
+  #linea{
+    width: 20%; 
+    border: 1px solid white;
+    margin-top: -10px;
+    margin-left: 250px;
+  }
+
+  #cebolla{
+    width: 13%; 
+    border: 1px solid white;
+    margin-top: -10px;
+    margin-left: 290px;
+  }
+
+  #tomate{
+    width: 13%; 
+    border: 1px solid white;
+    margin-top: -10px;
+    margin-left: 290px;
+  }
+
+  #carbonara{
+    width: 16%; 
+    border: 1px solid white;
+    margin-top: -10px;
+    margin-left: 270px;
+  }
+
+  #parmesano{
+    width: 13%; 
+    border: 1px solid white;
+    margin-top: -10px;
+    margin-left: 290px;
+  }
+
+  #espfield{
+    height: 25px;
+  }
+
+  #aceituna{
+    width: 16%; 
+    border: 1px solid white;
+    margin-top: -10px;
+    margin-left: 270px;
+  }
+
+  #dinero{
+    margin-top: -28px;
+    margin-left: 230px;
+  }

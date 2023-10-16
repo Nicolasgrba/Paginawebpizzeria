@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Crea tu pizza</title>
     <link rel="stylesheet" type="text/css" href="/css/creatupizza.css">
+    <script type="text/javascript" src="/js/creatupizza.js"></script>
 </head>
 <body>
     <header>
@@ -39,9 +40,52 @@
     </header>
     <div id="principio"></div>
 <!-- Empieza a programar aquí. Lo de arriba es la interfaz del header no la toques -->
+    
+    <form id="pizza-form" >
+        <!-- Masa -->
+        <div id="espaciado"></div>
+        <h1>CREA TU PIZZA</h1>
+        <fieldset>
+            <div id="espfield"></div>
+            <h2>Masa:</h2>
+            <input type="radio" name="masa" class="esp" value="masa_fina" required> Masa Fina <p id="linea"></p> <p id="dinero">2 €</p><br>
+            <input type="radio" name="masa" class="esp" value="masa_napoles" required> Masa Napolés<p id="linea"></p><p id="dinero">2,50 €</p><br>
+        </fieldset>
 
+        <!-- Base -->
+        <fieldset>
+            <h2>Base:</h2>
+            <input type="radio" class="esp" name="base" value="tomate_san_marzano" required> Tomate San Marzano<p id="tomate"></p><p id="dinero">1 €</p><br>
+            <input type="radio" class="esp" name="base" value="salsa_pesto" required> Salsa Pesto<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="radio" class="esp" name="base" value="salsa_carbonara" required> Salsa Carbonara<p id="carbonara"></p><p id="dinero">2,50 €</p><br>
+        </fieldset>
 
-
+        <!-- Ingredientes -->
+        <fieldset>
+            <h2>Ingredientes:</h2>
+            <input type="checkbox" class="esp" value="prosciutto"> Prosciutto <p id="linea"></p> <p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="mozzarella"> Mozzarella<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="4_quesos"> 4 Quesos<p id="linea"></p><p id="dinero">5 €</p><br>
+            <input type="checkbox" class="esp" value="albahaca"> Albahaca<p id="linea"></p><p id="dinero">0,50 €</p><br>
+            <input type="checkbox" class="esp" value="oregano"> Orégano<p id="linea"></p><p id="dinero">0,50 €</p><br>
+            <input type="checkbox" class="esp" value="pepperoni"> Pepperoni<p id="linea"></p><p id="dinero">3 €</p><br>
+            <input type="checkbox" class="esp" value="anchoas"> Anchoas<p id="linea"></p><p id="dinero">5 €</p><br>
+            <input type="checkbox" class="esp" value="pollo"> Pollo<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="huevo"> Huevo<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="ternera"> Ternera picada<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="parmesano"> Parmesano<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="tomate"> Tomate Cherry<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="champiñones"> Champiñones<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="cebolla_caramelizada"> Cebolla Caramelizada<p id="cebolla"></p><p id="dinero">3 €</p><br>
+            <input type="checkbox" class="esp" value="guanciale"> Guanciale<p id="linea"></p><p id="dinero">4 €</p><br>
+            <input type="checkbox" class="esp" value="lascas_de_parmesano"> Lascas de Parmesano<p id="parmesano"></p><p id="dinero">3 €</p><br>
+            <input type="checkbox" class="esp" value="jamon_serrano"> Jamón Serrano<p id="linea"></p><p id="dinero">5 €</p><br>
+            <input type="checkbox" class="esp" value="aceitunas_negras"> Aceitunas Negras<p id="aceituna"></p><p id="dinero">2 €</p><br>
+        </fieldset>
+        <div id="espaciado"></div>
+        <div id="input">
+        <input type="button" value="Crear pizza" ></div>
+    </form>
 
 <!-- Termina de programar aquí. Lo de abajo es la interfaz del footer no la toques -->
     <div class="whatsapp-button">
