@@ -177,3 +177,37 @@ body {
 
 
 /* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS NICOOOOOOO */
+.container11 {
+  position: relative;
+  text-align: center;
+}
+
+.titulo11 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#fff;
+}
+
+.texto11 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color:#fff;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 200px;
+  letter-spacing: 0.1em;
+  letter-spacing: 0.35em;
+}
+
+#redes {
+  position: absolute;
+  bottom: 5%;
+  top:87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
