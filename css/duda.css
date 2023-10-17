@@ -15,10 +15,10 @@ header {
   align-items: center;
   padding: 20px 30px;
   max-height: 50px;
-  position: fixed; /* Hace que el encabezado sea fijo */
-  top: 0; /* Lo coloca en la parte superior de la ventana */
-  width: 100%; /* Ocupa todo el ancho de la ventana */
-  z-index: 1000; /* Para asegurarse de que esté por encima de otros elementos */
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
 }
 
 
@@ -31,7 +31,7 @@ nav ul {
 }
 
 nav li {
-  margin-left: 50px; /* Espacio entre elementos de la lista */
+  margin-left: 50px; 
   font-size:xx-large;
    
 }
@@ -73,8 +73,8 @@ nav li:hover {
 #pizzero {
   width: 50px;
   height: 50px; 
-  margin-right: 60px; /* Agrega un margen derecho para evitar el corte */
-  margin-left: auto; /* Mueve la imagen hacia la derecha */
+  margin-right: 60px; 
+  margin-left: auto; 
 }
 
 #pizzero:hover {
@@ -91,24 +91,24 @@ nav li:hover {
 
 .whatsapp-button a {
   display: block;
-  background-color: #25d366; /* Color de fondo del botón de WhatsApp */
+  background-color: #25d366; 
   padding: 10px;
-  border-radius: 50%; /* Para hacer un círculo */
+  border-radius: 50%; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
   text-decoration: none;
 }
 
 .whatsapp-button img {
-  width: 50px; /* Ajusta el tamaño del icono según tus preferencias */
+  width: 50px; 
   height: 50px;
   display: block;
   margin: 0 auto;
 }
 
 a {
-  color: white; /* Color del texto del enlace */
-  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: white; 
+  text-decoration: none; 
 }
 
 footer {
@@ -117,13 +117,13 @@ footer {
   text-align: center;
   position: fixed;
   width: 100%;
-  height: 60px; /* Aumenta la altura del footer */
+  height: 60px; 
   bottom: 0;
 }
 
 footer * {
   margin-right: 20px;
-  margin-top: 10px; /* Agrega un margen superior para centrar el contenido verticalmente */
+  margin-top: 10px; 
 }
 
 .vertical-bar {
@@ -175,12 +175,11 @@ h1:hover{
 }
 
 #fotologo {
-  text-align: center; /* Centra horizontalmente el contenido */
+  text-align: center; 
 }
 
 #logof {
-  /* Establece el tamaño y otros estilos deseados para la imagen */
-  width: 500px; /* Ajusta el ancho según tu preferencia */
+  width: 500px; 
   height: auto;
 }
 
@@ -193,6 +192,6 @@ p{
 }
 
 #margenes {
-  padding-left: 30px; /* Margen izquierdo */
-  padding-right: 30px; /* Margen derecho */
+  padding-left: 30px; 
+  padding-right: 30px; 
 }
