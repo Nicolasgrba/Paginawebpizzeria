@@ -206,6 +206,11 @@
     margin-left: 120px;
   }
 
+  .esp:hover {
+    transform: scale(1.3);
+    transition: all 0.7s;
+  }
+
   #linea{
     width: 20%; 
     border: 1px solid white;
