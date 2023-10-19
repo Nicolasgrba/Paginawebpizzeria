@@ -151,3 +151,24 @@ body {
 
 
 /* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS TONIIIIIII */
+  #principio{
+    height: 100px;
+  }
+  #personas{
+    width: 300px;
+    height: 35px;
+  }
+  #hora{
+    width: 300px;
+    height: 35px;
+  }
+  #formulario{
+    display: inline-block;
+    margin-right: 10px;
+    justify-content: center;
+    color: white;
+  }
+  #hacerreserva{
+    display: flex;
+    justify-content: center;
+  }
