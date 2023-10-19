@@ -151,24 +151,58 @@ body {
 
 
 /* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS TONIIIIIII */
+  .titulo1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#fff;
+  font-size: 35px;
+  }
   #principio{
-    height: 100px;
+    height: 120px;
   }
   #personas{
     width: 300px;
     height: 35px;
+    text-align: center;
   }
   #hora{
     width: 300px;
     height: 35px;
+    text-align: center;
+  }
+  #fecha{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+  }
+  .maderareserva{
+    background-size: cover;
+  }
+  #div2{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  font-size: 25px;
   }
   #formulario{
-    display: inline-block;
-    margin-right: 10px;
-    justify-content: center;
-    color: white;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   }
   #hacerreserva{
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 40%;
+  }
+  #input input[type="button"] {
+    background-color: #FF9900;
+    width: 180px; 
+    height: 50px; 
+    font-size: 20px;
+    font-weight: bold;
   }

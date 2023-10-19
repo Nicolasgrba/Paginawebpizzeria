@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Reservas</title>
     <link rel="stylesheet" type="text/css" href="/css/reservas.css">
+    <script src="/js/reservas.js"></script>
 </head>
 <body>
     <header>
@@ -38,56 +39,59 @@
         
     </header>
     <div id="principio"></div>
-<!-- Empieza a programar aquí. Lo de arriba es la interfaz del header no la toques -->
-<<<<<<< HEAD
-    <h1>Reservas</h1>
-    <form id="hacerreserva" method="post">
-        <div id="formulario">
-           <label for="personas"><b>Personas</b></label><br>
-           <select id="personas" name="personas">
-            <option value="personas1">1 persona</option>
-            <option value="personas2">2 personas</option>
-            <option value="personas3">3 personas</option>
-            <option value="personas4">4 personas</option>
-            <option value="personas5">5 personas</option>
-            <option value="personas6">6 personas</option>
-            </select><br><br><br>
+<!-- Empieza a de programar aquí. Lo de abajo es la interfaz del footer no la toques -->
+    <div id="div2">
+        <div class="titulo1">
+            <h1 class="h1">Reservas</h1>
         </div>
-       
+            <img src="img/maderareserva2.jpg">
         <div id="formulario">
-            <label for="hora"><b>Hora</b></label><br>
-           <select id="hora" name="hora">
-            <option value="hora1">13:00</option>
-            <option value="hora2">13:15</option>
-            <option value="hora3">13:30</option>
-            <option value="hora4">13:45</option>
-            <option value="hora5">14:00</option>
-            <option value="hora6">14:15</option>
-            <option value="hora7">14:30</option>
-            <option value="hora8">14:45</option>
-            <option value="hora9">21:00</option>
-            <option value="hora10">21:15</option>
-            <option value="hora11">21:30</option>
-            <option value="hora12">21:45</option>
-            <option value="hora13">22:00</option>
-            <option value="hora14">22:15</option>
-            <option value="hora15">22:30</option>
-            <option value="hora16">22:45</option>
-            </select><br><br><br>
-        </div>
-            <div id="reserva">
-            <input type="submit" value="Reservar" form="hacerreserva">
-            </div>
-            <div id="solicitud">
-            <input type="submit" value="solicitud de grupo superior a 6 personas" form="hacerreserva">
-            </div>
+            <form id="hacerreserva" method="post">
+   
+               <label for="fecha"><b>Fecha</b></label><br><br>
+               <input type="date" id="fecha" value="2023-10-19" min="2023-01-01" max="2023-12-31" /><br><br><br>
     
+               <label for="personas"><b>Personas</b></label><br><br>
+               <select id="personas" name="personas">
+                <option value="personas1">1 persona</option>
+                <option value="personas2">2 personas</option>
+                <option value="personas3">3 personas</option>
+                <option value="personas4">4 personas</option>
+                <option value="personas5">5 personas</option>
+                <option value="personas6">6 personas</option>
+                </select><br><br><br>
+            
+               <label for="hora"><b>Hora</b></label><br><br>
+               <select id="hora" name="hora">
+                <option value="hora1">13:00</option>
+                <option value="hora2">13:15</option>
+                <option value="hora3">13:30</option>
+                <option value="hora4">13:45</option>
+                <option value="hora5">14:00</option>
+                <option value="hora6">14:15</option>
+                <option value="hora7">14:30</option>
+                <option value="hora8">14:45</option>
+                <option value="hora9">21:00</option>
+                <option value="hora10">21:15</option>
+                <option value="hora11">21:30</option>
+                <option value="hora12">21:45</option>
+                <option value="hora13">22:00</option>
+                <option value="hora14">22:15</option>
+                <option value="hora15">22:30</option>
+                <option value="hora16">22:45</option>
+                </select><br><br><br>
+                <div id="input">
+                    <input type="button" value="Reservar" form="hacerreserva">
+                </div>
+                
+                
             </form>
         </div>
-=======
-
-
->>>>>>> bc9d2cfde62c615d06085662b0a2d94ed8f7e60c
+        
+    </div>
+    <div id="principio"></div>
+    
+    
 
 <!-- Termina de programar aquí. Lo de abajo es la interfaz del footer no la toques -->
     <div class="whatsapp-button">
