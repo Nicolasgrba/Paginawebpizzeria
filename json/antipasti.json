@@ -1,0 +1,30 @@
+{
+    "carta_de_antipastos": [
+      {
+        "nombre": "Bruschetta",
+        "ingredientes": ["pan italiano", "tomate fresco", "ajo", "albahaca", "aceite de oliva"],
+        "precio": 12
+      },
+      {
+        "nombre": "Caprese",
+        "ingredientes": ["tomate", "mozzarella fresca", "albahaca", "aceite de oliva", "vinagre balsámico"],
+        "precio": 12
+      },
+      {
+        "nombre": "Calamares a la Romana",
+        "ingredientes": ["calamares", "harina", "sal", "limón", "salsa marinara"],
+        "precio": 12
+      },
+      {
+        "nombre": "Prosciutto con Melón",
+        "ingredientes": ["prosciutto", "melón", "rúcula"],
+        "precio": 12
+      },
+      {
+        "nombre": "Aceitunas Marinadas",
+        "ingredientes": ["aceitunas verdes y negras", "ajo", "romero", "aceite de oliva"],
+        "precio": 12
+      }
+    ]
+  }
+  
