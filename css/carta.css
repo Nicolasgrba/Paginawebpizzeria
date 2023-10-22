@@ -107,10 +107,6 @@
     transform:scale(1.2); transition: all 0.7s;
   }
 
-  #final{
-    height: 60px;
-  }
-
   .whatsapp-button {
     position: fixed;
     top: 50%; 
@@ -167,10 +163,26 @@
     vertical-align: middle;
   }
 
-  
-  
-
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
+#menu {
+  text-align: center;
+  display: flex; /* Muestra los elementos en una fila horizontal */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  gap: 40px;
+}
 
+#menufoto {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 430px;
+}
 
-/* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS CESAAAAAR */
+#menufoto:hover {
+  transform:scale(1.2); transition: all 0.7s;
+}
+
+#final{
+  height: 150px;
+}
+
