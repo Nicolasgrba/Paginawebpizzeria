@@ -60,7 +60,7 @@ body {
   #letrerohead {
     width: 270px;
     height: 70px;
-    margin-bottom:20px;
+    margin-bottom:10px;
     margin-top: 10px;
   }
 
@@ -153,7 +153,7 @@ body {
 /* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS TONIIIIIII */
   .titulo1 {
   position: absolute;
-  top: 30%;
+  top: 33%;
   left: 50%;
   transform: translate(-50%, -50%);
   color:#fff;
