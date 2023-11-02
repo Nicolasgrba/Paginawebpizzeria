@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Reservas</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/reservas.css">
     <script src="/js/reservas.js"></script>
 </head>
@@ -81,7 +83,7 @@
                 <option value="hora16">22:45</option>
                 </select><br><br><br>
                 <div id="input">
-                    <input type="button" value="Reservar" form="hacerreserva">
+                    <input type="button" value="Reservar" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 </div>
                 
                 
@@ -90,7 +92,6 @@
         
     </div>
     <div id="principio"></div>
-    
     
 
 <!-- Termina de programar aquí. Lo de abajo es la interfaz del footer no la toques -->
@@ -108,5 +109,25 @@
         <span class="vertical-bar">|</span>
         <a href="duda.html">&nbsp;&nbsp;&nbsp;&nbsp; ¿Alguna Duda?</a>
     </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresa tus datos</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="alert('La reserva se ha realizado correctamente')">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
