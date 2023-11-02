@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Reservas</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/reservas.css">
     <script src="/js/reservas.js"></script>
 </head>
@@ -38,10 +40,10 @@
         </div>
         
     </header>
-    <div id="principio"></div>
+    <div id="principio" class="container"></div>
 <!-- Empieza a de programar aquí. Lo de abajo es la interfaz del footer no la toques -->
     <div id="div2">
-        <div class="titulo1">
+        <div class="titulo1 ">
             <h1 class="h1">Reservas</h1>
         </div>
             <img src="img/maderareserva2.jpg">
@@ -80,8 +82,8 @@
                 <option value="hora15">22:30</option>
                 <option value="hora16">22:45</option>
                 </select><br><br><br>
-                <div id="input">
-                    <input type="button" value="Reservar" form="hacerreserva">
+                <div ID="input">
+                    <input type="button" value="Reservar" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 </div>
                 
                 
@@ -90,7 +92,6 @@
         
     </div>
     <div id="principio"></div>
-    
     
 
 <!-- Termina de programar aquí. Lo de abajo es la interfaz del footer no la toques -->
@@ -108,5 +109,33 @@
         <span class="vertical-bar">|</span>
         <a href="duda.html">&nbsp;&nbsp;&nbsp;&nbsp; ¿Alguna Duda?</a>
     </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-dark text-white">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresa tus datos</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-dark text-white">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" placeholder="Nombre"><br><br>
+          <label for="apellidos">Apellidos:</label>
+          <input type="text" id="apellidos" placeholder="Apellidos"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email2" placeholder="Email"><br><br>
+          <label for="telefono">Telefono:</label>
+          <input type="text" id="telefono" placeholder="Telefono"><br><br>
+          <label for="codigopostal">Codigo postal:</label>
+          <input type="text" id="codigopostal" placeholder="Codigo postal">
+        </div>
+        <div class="modal-footer bg-dark">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-warning" onclick="alert('La reserva se ha realizado correctamente')">Hacer reserva</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
