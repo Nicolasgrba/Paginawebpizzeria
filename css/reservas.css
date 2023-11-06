@@ -9,7 +9,7 @@
   body {
     margin: 0;
     padding: 0;
-    background-image: url(../img/pizza2.JPG);
+    background-image: url(../img/pizza3.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,12 +22,13 @@
   .margen{
     margin:120px;
   }
-  .fondo{
-    background-image: url(../img/maderareserva2.jpg);
-    background-image: no-repeat;
-    background-size: cover;
+  .container{
+    background-color: black;
+    border-radius: 10px;
+    width: 800px;
     height: 500px;
   }
+ 
   #personas{
     width: 300px;
     height: 35px;
