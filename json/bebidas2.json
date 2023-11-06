@@ -1,0 +1,19 @@
+{
+    "carta_de_bebidas": [
+      {
+        "nombre": "Cóctel de Frutas",
+        "tipo": ["Cóctel sin alcohol"],
+        "precio": 4.0
+      },
+      {
+        "nombre": "Vino Tinto",
+        "tipo": ["Vino"],
+        "precio": 5.0
+      },
+      {
+        "nombre": "Margarita",
+        "tipo": ["Cóctel con alcohol"],
+        "precio": 6.0
+      }
+    ]
+}

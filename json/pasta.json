@@ -19,11 +19,6 @@
         "nombre": "Ravioli de Espinacas y Ricotta",
         "ingredientes": ["ravioli rellenos de espinacas y ricotta", "salsa de tomate", "queso parmesano"],
         "precio": 12
-      },
-      {
-        "nombre": "Penne con Pesto de Albahaca",
-        "ingredientes": ["penne", "salsa de pesto de albahaca", "tomate cherry", "queso parmesano"],
-        "precio": 12
       }
     ]
   }

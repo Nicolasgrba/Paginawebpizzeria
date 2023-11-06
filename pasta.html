@@ -1,66 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Carta</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="js/pasta.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/pasta.css">
 </head>
+
 <body>
     <header>
-        <div id="logo">
-            <img src="img/logo.PNG" id="logohead">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="reservas.html">Reservas&nbsp;&nbsp;&nbsp;</a></li>
-                <li><a href="creatupizza.html">Crea tu pizza &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-            </ul>
-        </nav>
-        <div>
-            <a href="index.html">
-                <img src="img/letrero.png" id="letrerohead">
-            </a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="cartainterfaz.html">Carta</a></li>
-                <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
-            </ul>
-        </nav>
-        <div class="contact">
-            <a href="mailto:Tonypepperoni@gmail.com">
-                <img src="img/email3.png" id="email">
-            </a>
-        </div>
-        <div class="tonys">
-            <img src="img/pizzero.png" id="pizzero">
-        </div>
-        
+        <a id="reservas" href="reservas.html">Reservas</a>
+        <a id="reservas" href="creatupizza.html">Crea tu pizza </a>
+        <a href="index.html"><img src="img/letrero.png" alt="Logo" id="logoheader" class="logo"/></a>
+        <a id="reservas" href="carta.html">Carta</a>
+        <a id="reservas" href="sobrenosotros.html">Sobre nosotros</a>
+  
     </header>
-
     <div id="principio"></div>
-
- 
 <!-- Empieza a programar aquí. Lo de arriba es la interfaz del header no la toques -->
-<div class="cartapasta">
-    <img src="img/pasta.jpg" class="fondocarta"> 
-    <p class="titulocarta">Pastas</p>
-    <p class="telefono">Tony Pepperoni<br>Tel: 645 738 327</p>
-       <ul class="pasta">
-           <li>
-            <u class="titulopasta">Espaguetis a la Boloñesa</u><br> Espaguetis, salsa boloñesa, queso parmesano, albahaca<br>11€
-           </li><br>
-           <li>
-            <u class="titulopasta">Espaguetis carbonara</u><br>Espaguetis, salsa carbonara, queso parmesano, guanciale<br> 14€
-           </li><br>
-           <li>
-            <u class="titulopasta">Lasaña de Vegetales</u><br> Láminas de lasaña, salsa bechamel, berenjenas, calabacines, pimientos, mozzarella<br>15€
-           </li><br>   
-           <li>
-            <u class="titulopasta"> Ravioli de Espinacas y Ricotta</u><br> Ravioli rellenos de espinacas y ricotta, salsa de tomate, queso parmesano<br> 13€
-           </li>
-       </ul>
-   </div>
+<div class="container">
+    <div class="cartapasta">
+        <div class="row justify-content-between gy-5">
+
+            <div class="carta1 col-lg-5 col-sm-12">
+                <p class="titulocarta">Pasta</p>
+                <p class="telefono">Tony Pepperoni <br>Tel: 645 738 327</p>
+                <ul class="pasta">
+
+                </ul>
+            </div>
+
+            <div class="carta2 col-lg-5 col-sm-12 ">
+                <p class="titulocarta">Pasta</p>
+                <p class="telefono">Tony Pepperoni <br>Tel: 645 738 327</p>
+                <ul class="pasta2">
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+<br>
 
 <!-- Termina de programar aquí. Lo de abajo es la interfaz del footer no la toques -->
     <div class="whatsapp-button">

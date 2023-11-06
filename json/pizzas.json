@@ -1,45 +1,26 @@
 {
     "carta_de_pizzas": [
       {
-        "nombre": "Pizza Margarita",
-        "ingredientes": ["salsa de tomate", "mozzarella", "albahaca"],
+        "nombre": "BIANCA AL PROSCIUTTO",
+        "ingredientes": ["Base bianca de mozzarella fiordilatte", " prosciutto cotto", "parmesano"], 
         "precio": 12
       },
       {
-        "nombre": "Pizza Pepperoni",
-        "ingredientes": ["salsa de tomate", "mozzarella", "pepperoni"],
+        "nombre": "OFELIA TARTUFONA",
+        "ingredientes": ["Base bianca de mozzarella fiordilatte", " mortadella tartufata di Bologna", "crema di Grana Padano","lascas de parmesano"],
         "precio": 11
       },
       {
-        "nombre": "Pizza Hawaiana",
-        "ingredientes": ["salsa de tomate", "mozzarella", "jamón", "piña"],
+        "nombre": "DIAVOLA",
+        "ingredientes": ["Base de tomate San Marzano", "salame picante napolitano", " mozzarella fiordilatte ", "albahaca"],
         "precio": 10
       },
       {
-        "nombre": "Pizza Vegetariana",
-        "ingredientes": ["salsa de tomate", "mozzarella", "pimientos", "cebolla", "aceitunas", "champiñones"],
+        "nombre": "NOBILE BORGHESE",
+        "ingredientes": ["Base de crema de trufa", " mix de setas salteadas con ajo", "speck y mozzarella fiordilatte"],
         "precio": 13
-      },
-      {
-        "nombre": "Pizza BBQ",
-        "ingredientes": ["salsa BBQ", "mozzarella", "pollo a la parrilla", "cebolla roja", "maíz"],
-        "precio": 10
-      },
-      {
-        "nombre": "Pizza Mexicana",
-        "ingredientes": ["salsa de tomate", "mozzarella", "carne de res molida", "pimientos jalapeños", "cebolla", "maíz"],
-        "precio": 11
-      },
-      {
-        "nombre": "Pizza de Pollo Alfredo",
-        "ingredientes": ["salsa Alfredo", "mozzarella", "pollo a la parrilla", "espinacas", "champiñones"],
-        "precio": 12
-      },
-      {
-        "nombre": "Pizza de Pesto de Pollo",
-        "ingredientes": ["salsa de pesto", "mozzarella", "pollo a la parrilla", "tomate cherry"],
-        "precio": 14
       }
+     
     ]
   }
   

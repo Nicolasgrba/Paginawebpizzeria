@@ -2,38 +2,23 @@
     "carta_de_bebidas": [
       {
         "nombre": "Agua Mineral",
-        "tipo": "Bebida sin alcohol",
+        "tipo": ["Bebida sin alcohol"],
         "precio": 1.5
       },
       {
         "nombre": "Refresco de Cola",
-        "tipo": "Refresco",
+        "tipo": ["Refresco"],
         "precio": 2.0
       },
       {
         "nombre": "Jugo de Naranja",
-        "tipo": "Jugo de frutas",
+        "tipo": ["Jugo de frutas"],
         "precio": 2.5
       },
       {
         "nombre": "Cerveza Lager",
-        "tipo": "Cerveza",
+        "tipo": ["Cerveza"],
         "precio": 3.0
-      },
-      {
-        "nombre": "Cóctel de Frutas",
-        "tipo": "Cóctel sin alcohol",
-        "precio": 4.0
-      },
-      {
-        "nombre": "Vino Tinto",
-        "tipo": "Vino",
-        "precio": 5.0
-      },
-      {
-        "nombre": "Margarita",
-        "tipo": "Cóctel con alcohol",
-        "precio": 6.0
       }
     ]
   }
