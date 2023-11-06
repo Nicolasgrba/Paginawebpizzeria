@@ -8,17 +8,17 @@
       {
         "nombre": "Fettuccine Alfredo",
         "ingredientes": ["fettuccine", "salsa Alfredo", "pollo a la parrilla", "queso parmesano"],
-        "precio": 12
+        "precio": 10
       },
       {
         "nombre": "Lasaña de Vegetales",
         "ingredientes": ["láminas de lasaña", "salsa bechamel", "berenjenas", "calabacines", "pimientos", "queso mozzarella"],
-        "precio": 12
+        "precio": 11
       },
       {
         "nombre": "Ravioli de Espinacas y Ricotta",
         "ingredientes": ["ravioli rellenos de espinacas y ricotta", "salsa de tomate", "queso parmesano"],
-        "precio": 12
+        "precio": 10
       }
     ]
   }
