@@ -19,11 +19,6 @@
         "nombre": "Prosciutto con Melón",
         "ingredientes": ["prosciutto", "melón", "rúcula"],
         "precio": 12
-      },
-      {
-        "nombre": "Aceitunas Marinadas",
-        "ingredientes": ["aceitunas verdes y negras", "ajo", "romero", "aceite de oliva"],
-        "precio": 12
       }
     ]
   }

@@ -1,0 +1,25 @@
+{
+    "carta_de_pasta": [
+      {
+        "nombre": "Tagliatelle con caponata de verduras",
+        "ingredientes": ["Verduras salteadas", "aceitunas negras", "queso parmesano", "albahaca"],
+        "precio": 12
+      },
+      {
+        "nombre": "Tagliatelle bologna",
+        "ingredientes": ["Ternera picada", " salsa Pomodoro", "láminas de Parmigiano"],
+        "precio": 8
+      },
+      {
+        "nombre": "La estrella de Oven",
+        "ingredientes": ["Nido de Linguini fresco con salsa de Grana Padano", "tomates Cherry", "gambones rojos"],
+        "precio": 10
+      },
+      {
+        "nombre": "Rigatoni al forno",
+        "ingredientes": ["Tomate", "mozzarella", " champiñones"],
+        "precio": 9
+      }
+    ]
+  }
+  
