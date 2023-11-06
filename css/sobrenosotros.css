@@ -1,132 +1,126 @@
 /*ESTA PARTE ES EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
 @font-face {
-    font-family: pizzeria;
-    src: url(Hagin\ Caps\ Medium.otf);
+  font-family: pizzeria;
+  src: url(Hagin\ Caps\ Medium.otf);
 }
-  *{
-    font-family: pizzeria;
-  }
+*{
+  font-family: pizzeria;
+}
 
-  body {
-    margin: 0;
-    padding: 0;
-    background-image: url(../img/masa.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  
-  #principio{
-    height: 120px;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/masa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-  #insta:hover {
-    transform:scale(1.2); transition: all 0.7s;
-  }
+#principio{
+  height: 120px;
+}
 
-  #facebook:hover {
-    transform:scale(1.2); transition: all 0.7s;
-  }
+#insta:hover {
+  transform:scale(1.2); transition: all 0.7s;
+}
 
-  #x{
-    height:48px ;
-    width: 48px;
-  }
+#facebook:hover {
+  transform:scale(1.2); transition: all 0.7s;
+}
 
-  #x:hover {
-    transform:scale(1.2); transition: all 0.7s;
-  }
+#x{
+  height:48px ;
+  width: 48px;
+}
 
-  #tiktok:hover {
-    transform:scale(1.2); transition: all 0.7s;
-  }
+#x:hover {
+  transform:scale(1.2); transition: all 0.7s;
+}
+
+#tiktok:hover {
+  transform:scale(1.2); transition: all 0.7s;
+}
 
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
 
 /* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS NICOOOOOOO */
-  .container1 {
-    display: flex;
-  }
-  .div1 {
- 
-    text-align: center;
-    background-color: #000000;
-    width: 60%;
-    flex: 1;
-  }
+.container1 {
+  display: flex;
+}
+.div1 {
 
-  .titulo1 {
-    left: 50%;
-    color:#fff;
-    text-align: center;
-  }
+  text-align: center;
+  background-color: #000000;
+  width: 40%;
+  flex:1;
+  color:#fff;
+}
 
-  .texto1 {
-   
-    text-align: center;
-    color: #fff;
-    margin-left: 10px;
-    margin-right: 20px;
-    letter-spacing: 0.1em;
-    line-height: 1.5; 
-    word-spacing: 0.2em; 
-  }
+.titulo1 {
+  left: 50%;
+  color:#fff;
+  text-align: center;
+}
 
-  #redes {  
-    display: flex; 
-    align-items: center;
-    margin-left: 200px;
-    margin-right: 20px;
-  }
+.texto1 {
+  text-align: center;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 20px;
+  letter-spacing: 0.1em;
+  line-height: 1.5; 
+  word-spacing: 0.2em; 
+}
 
-  #redes a {
-    margin: 0 10px; 
-  }
 
-  p {
-    font-family: "Times New Roman", Times, serif;
-  }
+#redes a {
+  margin: 0 10px; 
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+.div2 {
+
+  text-align: center;
+  background-color: #000000;
+  width: 40%;
+  flex:1;
+  color:#fff;
+
   
+}
 
-  #div2 {
+.titulo2 {
+  left: 50%;
+  color:#fff;
+}
 
-    text-align: center;
-    width: 60%;
-    background-color: #000000;
-    flex: 1;
-    
-    
-  }
+.texto2 {
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  letter-spacing: 0.1em;
+  line-height: 1.5; 
+  word-spacing: 0.2em; 
 
-  .titulo2 {
-    left: 50%;
-    color:#fff;
-  }
-
-  .texto2 {
-    left: 50%;
-    text-align: center;
-    color: #fff;
-    margin-left: 20px;
-    margin-right: 20px;
-    letter-spacing: 0.1em;
-    line-height: 1.5; 
-    word-spacing: 0.2em; 
-
-  }
+}
 
 
-  #esp{
-    height: 30px;
-  }
+#esp{
+  height: 30px;
+}
 
-  #espmax{
-    height: 50px;
-  }
+#espmax{
+  height: 50px;
+}
 
-  .tamañoca {
-    width: 750px;
-    margin-left: 22%;
-    
-  }
+.tamañoca {
+  width: 750px;
+  margin-left: 22%;
   
+}

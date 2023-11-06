@@ -14,7 +14,7 @@ body {
   background-image: url(../img/pizzacarta2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
- /* background-attachment: fixed;*/
+ background-attachment: fixed;
 }
 
 header {
@@ -25,9 +25,7 @@ header {
   height: 60px;
   margin-left: 20px;
   
-<<<<<<< HEAD
 }
-
 
 #reservas{
   font-size: xx-large;
@@ -37,8 +35,6 @@ header {
   transform: scale(1.2);
   transition: all 0.7s;
 }
-
-
 
 #logoheader:hover {
   transform: scale(1.2);
@@ -55,7 +51,6 @@ header {
   transform: scale(1.2);
   transition: all 0.7s;
 }
-
 
 #principio {
   height: 50px;
@@ -121,30 +116,6 @@ footer * {
   height: auto;
   vertical-align: middle;
 }
-=======
-  #principio{
-    height: 120px;
-  }
-
-  #menu {
-    text-align: center;
-  }
-  
-  #menufoto {
-    display: block;
-    margin: 0 auto;
-    width: 330px;
-    height: 510px;
-  }
-
-  #menufoto:hover {
-    transform:scale(1.2); transition: all 0.7s;
-  }
-
-  #final{
-    height: 60px;
-  }
->>>>>>> c8feb9f9c2268d35ce55847d0c884a563a6d047b
 
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
 
@@ -162,9 +133,8 @@ footer * {
   word-spacing: 0.2em;
   list-style: none;
   font-size: 12px;
+  margin-right: 20px;
 }
-
-
 
 .carta1{
   background-image: url(../img/madera18.png);
@@ -186,9 +156,8 @@ footer * {
   word-spacing: 0.2em;
   list-style: none;
   font-size: 11px;
-  
+  margin-right: 20px;
 }
-
 
 .titulocarta {
   color: #ffffff;
@@ -196,9 +165,7 @@ footer * {
   text-align: center;
 }
 
-
 .telefono{
   color: #E68C17;
   text-align: center;
 }
-

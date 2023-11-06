@@ -8,7 +8,6 @@
 
 }
 
-
 body {
   margin: 0;
   padding: 0;
@@ -129,43 +128,7 @@ footer * {
   align-items: center;
   margin-right: 1rem;
 }
-=======
-  body {
-    margin: 0;
-    padding: 0;
-    background-image: url(../img/pizza3.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 
-  #principio{
-    height: 120px;
-  }
-
-  #menu {
-    text-align: center;
-  }
-  
-  #menufoto {
-    display: block;
-    margin: 0 auto;
-    width: 330px;
-    height: 510px;
-  }
-
-  #menufoto:hover {
-    transform:scale(1.2); transition: all 0.7s;
-  }
-
-  #final{
-    height: 60px;
-  }
-
-/*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
-
-/* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS CESAAAAAR */
->>>>>>> c8feb9f9c2268d35ce55847d0c884a563a6d047b
 
 .bebidas {
   color: #E68C17;
@@ -175,9 +138,8 @@ footer * {
   word-spacing: 0.2em;
   list-style: none;
   font-size: 12px;
+  margin-right: 20px;
 }
-
-
 
 .carta1{
   background-image: url(../img/madera18.png);
@@ -199,7 +161,7 @@ footer * {
   word-spacing: 0.2em;
   list-style: none;
   font-size: 11px;
-  
+  margin-right: 20px;
 }
 
 
@@ -214,4 +176,5 @@ footer * {
   color: #E68C17;
   text-align: center;
 }
+
 
