@@ -1,69 +1,69 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url(../img/pizza6.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/pizza6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-  #principio{
-    height: 120px;
-  }
-  main{
-    color: white;
-  }
+#principio{
+  height: 120px;
+}
+main{
+  color: white;
+}
 
-  #legal{
-    line-height: 25px;
-    background-color: black;
-    border-radius: 10px;
-    border: 1px solid dimgray;
-    margin-left: 300px;
-    width: 60%;
-    height: 1100px;
-  }
+#legal{
+  line-height: 25px;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid dimgray;
+  margin-left: 300px;
+  width: 60%;
+  height: 1100px;
+}
 
-  #titulolegal{
-    line-height: 25px;
-    background-color: black;
-    border-radius: 10px;
-    border: 1px solid dimgray;
-    height: 60px;
-  }
+#titulolegal{
+  line-height: 25px;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid dimgray;
+  height: 60px;
+}
 
-  h1{
-    text-align: center;
+h1{
+  text-align: center;
 
-  }
-  h1:hover{
-    transform:scale(1.2); transition: all 0.7s;
-  }
+}
+h1:hover{
+  transform:scale(1.2); transition: all 0.7s;
+}
 
-  #espacio{
-    height: 70px;
-  }
+#espacio{
+  height: 70px;
+}
 
-  #fotologo {
-    text-align: center; 
-  }
-  
-  #logof {
-    width: 500px; 
-    height: auto;
-  }
+#fotologo {
+  text-align: center; 
+}
 
-  h2{
-    text-align: center;
-  }
+#logof {
+  width: 500px; 
+  height: auto;
+}
 
-  p{
-    text-align: center;
-  }
+h2{
+  text-align: center;
+}
 
-  #margenes {
-    padding-left: 30px; 
-    padding-right: 30px; 
-  }
-  
+p{
+  text-align: center;
+}
+
+#margenes {
+  padding-left: 30px; 
+  padding-right: 30px; 
+}
+
 

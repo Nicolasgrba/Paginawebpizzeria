@@ -1,61 +1,60 @@
 @font-face {
-    font-family: pizzeria;
-    src: url(Hagin\ Caps\ Medium.otf);
+  font-family: pizzeria;
+  src: url(Hagin\ Caps\ Medium.otf);
 }
 *{
-    font-family: pizzeria;
-    
+  font-family: pizzeria;
+  
 }
-  a {
-    color: white; 
-    text-decoration: none; 
-  }
+a {
+  color: white; 
+  text-decoration: none; 
+}
 
-  body {
-    margin: 0;
-    padding: 0;
-    background-image: url(../img/pizza7.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/pizza7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-  #principio{
-    height: 120px;
-  }
- 
-  #eslogan {
-    height: 550px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
-  }
-  
-  .grande {
-    text-align: center; 
-    font-size: 40px; 
-    color: white; 
-    margin: 0; 
-  }
-  
-  .pequeño {
-    font-size: 30px;
-    color: white; 
-    margin: 0; 
-  }
+#principio{
+  height: 120px;
+}
 
-  .eslogan{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+#eslogan {
+  height: 550px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
 
-  footer {
-    position: fixed;
-  }
-  
-  
+.grande {
+  text-align: center; 
+  font-size: 40px; 
+  color: white; 
+  margin: 0; 
+}
+
+.pequeño {
+  font-size: 30px;
+  color: white; 
+  margin: 0; 
+}
+
+.eslogan{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  position: fixed;
+}
+
