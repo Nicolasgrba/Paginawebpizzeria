@@ -12,6 +12,7 @@
     background-image: url(../img/pizza2.JPG);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */

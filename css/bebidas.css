@@ -12,6 +12,7 @@
     background-image: url(../img/pizza3.JPG);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   #principio{

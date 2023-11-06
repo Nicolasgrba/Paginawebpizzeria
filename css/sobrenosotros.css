@@ -13,6 +13,7 @@
     background-image: url(../img/masa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   
   #principio{

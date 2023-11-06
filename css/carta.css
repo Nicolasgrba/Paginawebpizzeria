@@ -12,6 +12,7 @@
     background-image: url(../img/pizzacarta.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   
   #principio{
