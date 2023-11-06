@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/reservas.css">
+    <link rel="stylesheet" type="text/css" href="/css/general.css">
     <script src="/js/reservas.js"></script>
 </head>
 <body>
@@ -35,65 +36,54 @@
                 <img src="img/email3.png" id="email">
             </a>
         </div>
-        <div class="tonys">
-            <img src="img/pizzero.png" id="pizzero">
-        </div>
         
     </header>
-    <div id="principio"></div>
 <!-- Empieza a de programar aquí. Lo de abajo es la interfaz del footer no la toques -->
-    <div id="div2">
-        <div class="titulo1">
-            <h1 class="h1">Reservas</h1>
-        </div>
-            <img src="img/maderareserva2.jpg">
-        <div id="formulario">
-            <form id="hacerreserva" method="post">
-   
-               <label for="fecha"><b>Fecha</b></label><br><br>
-               <input type="date" id="fecha" value="2023-10-19" min="2023-01-01" max="2023-12-31" /><br><br><br>
-    
-               <label for="personas"><b>Personas</b></label><br><br>
-               <select id="personas" name="personas">
-                <option value="personas1">1 persona</option>
-                <option value="personas2">2 personas</option>
-                <option value="personas3">3 personas</option>
-                <option value="personas4">4 personas</option>
-                <option value="personas5">5 personas</option>
-                <option value="personas6">6 personas</option>
-                </select><br><br><br>
-            
-               <label for="hora"><b>Hora</b></label><br><br>
-               <select id="hora" name="hora">
-                <option value="hora1">13:00</option>
-                <option value="hora2">13:15</option>
-                <option value="hora3">13:30</option>
-                <option value="hora4">13:45</option>
-                <option value="hora5">14:00</option>
-                <option value="hora6">14:15</option>
-                <option value="hora7">14:30</option>
-                <option value="hora8">14:45</option>
-                <option value="hora9">21:00</option>
-                <option value="hora10">21:15</option>
-                <option value="hora11">21:30</option>
-                <option value="hora12">21:45</option>
-                <option value="hora13">22:00</option>
-                <option value="hora14">22:15</option>
-                <option value="hora15">22:30</option>
-                <option value="hora16">22:45</option>
-                </select><br><br><br>
-                <div id="input">
-                    <input type="button" value="Reservar" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                </div>
-                
-                
-            </form>
-        </div>
-        
-    </div>
-    <div id="principio"></div>
-    
+    <div class="container">
+        <div class="row margen d-flex justify-content-center text-white text-center fw-bold fs-4">
+            <div class="col fondo p-8">
+                    <h1>RESERVAS</h1><br>
+                  
+                    <form method="post">
 
+                       <label for="fecha"><b>Fecha</b></label><br>
+                       <input type="date" id="fecha" value="2023-10-19" min="2023-01-01" max="2023-12-31" /><br><br>
+                        
+                       <label for="personas"><b>Personas</b></label><br>
+                       <select id="personas" name="personas">
+                        <option value="personas1">1 persona</option>
+                        <option value="personas2">2 personas</option>
+                        <option value="personas3">3 personas</option>
+                        <option value="personas4">4 personas</option>
+                        <option value="personas5">5 personas</option>
+                        <option value="personas6">6 personas</option>
+                        </select><br><br>
+                    
+                       <label for="hora"><b>Hora</b></label><br>
+                       <select id="hora" name="hora">
+                        <option value="hora1">13:00</option>
+                        <option value="hora2">13:15</option>
+                        <option value="hora3">13:30</option>
+                        <option value="hora4">13:45</option>
+                        <option value="hora5">14:00</option>
+                        <option value="hora6">14:15</option>
+                        <option value="hora7">14:30</option>
+                        <option value="hora8">14:45</option>
+                        <option value="hora9">21:00</option>
+                        <option value="hora10">21:15</option>
+                        <option value="hora11">21:30</option>
+                        <option value="hora12">21:45</option>
+                        <option value="hora13">22:00</option>
+                        <option value="hora14">22:15</option>
+                        <option value="hora15">22:30</option>
+                        <option value="hora16">22:45</option>
+                        </select><br><br>
+                        
+                        <input class="btn btn-warning fw-bold w-80 h-40 fs-4" type="button" value="Reservar" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    </form>
+            </div>
+        </div>   
+    </div>
 <!-- Termina de programar aquí. Lo de abajo es la interfaz del footer no la toques -->
     <div class="whatsapp-button">
         <a href="https://wa.me/tunumero" target="_blank">
@@ -114,17 +104,25 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header">
+        <div class="modal-header bg-dark text-white">
           <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresa tus datos</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body bg-dark text-white">
           <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+          <input type="text" id="nombre" placeholder="Nombre"><br><br>
+          <label for="apellidos">Apellidos:</label>
+          <input type="text" id="apellidos" placeholder="Apellidos"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email2" placeholder="Email"><br><br>
+          <label for="telefono">Telefono:</label>
+          <input type="text" id="telefono" placeholder="Telefono"><br><br>
+          <label for="codigopostal">Codigo postal:</label>
+          <input type="text" id="codigopostal" placeholder="Codigo postal">
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary" onclick="alert('La reserva se ha realizado correctamente')">Save changes</button>
+        <div class="modal-footer bg-dark">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-warning" onclick="alert('La reserva se ha realizado correctamente')">Hacer reserva</button>
         </div>
       </div>
     </div>

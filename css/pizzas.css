@@ -25,6 +25,7 @@ header {
   height: 60px;
   margin-left: 20px;
   
+<<<<<<< HEAD
 }
 
 
@@ -120,6 +121,30 @@ footer * {
   height: auto;
   vertical-align: middle;
 }
+=======
+  #principio{
+    height:120px;
+  }
+
+  #menu {
+    text-align: center;
+  }
+  
+  #menufoto {
+    display: block;
+    margin: 0 auto;
+    width: 330px;
+    height: 510px;
+  }
+
+  #menufoto:hover {
+    transform:scale(1.2); transition: all 0.7s;
+  }
+
+  #final{
+    height: 60px;
+  }
+>>>>>>> c8feb9f9c2268d35ce55847d0c884a563a6d047b
 
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
 
