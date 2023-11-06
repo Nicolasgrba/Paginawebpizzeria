@@ -43,41 +43,39 @@
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
 
 /* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS NICOOOOOOO */
+  .container1 {
+    display: flex;
+  }
   .div1 {
-    position: relative;
+ 
     text-align: center;
+    background-color: #000000;
+    width: 60%;
+    flex: 1;
   }
 
   .titulo1 {
-    position: absolute;
-    top: 11%;
     left: 50%;
-    transform: translate(-50%, -50%);
     color:#fff;
+    text-align: center;
   }
 
   .texto1 {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   
     text-align: center;
     color: #fff;
-    text-align: center;
     margin-left: 10px;
-    margin-right: 200px;
+    margin-right: 20px;
     letter-spacing: 0.1em;
     line-height: 1.5; 
     word-spacing: 0.2em; 
   }
 
   #redes {  
-    top:84%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex; 
     align-items: center;
+    margin-left: 200px;
+    margin-right: 20px;
   }
 
   #redes a {
@@ -90,38 +88,32 @@
   
 
   #div2 {
-    position: relative;
+
     text-align: center;
+    width: 60%;
+    background-color: #000000;
+    flex: 1;
+    
+    
   }
 
   .titulo2 {
-    position: absolute;
-    top: 11%;
     left: 50%;
-    transform: translate(-50%, -50%);
     color:#fff;
   }
 
   .texto2 {
-    position: absolute;
-    top: 52%;
     left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     letter-spacing: 0.1em;
     line-height: 1.5; 
     word-spacing: 0.2em; 
+
   }
 
-  .texto2 img {
-    width: 35%; 
-    display: block;
-    margin: 0 auto; 
-  } 
 
   #esp{
     height: 30px;
@@ -131,61 +123,9 @@
     height: 50px;
   }
 
-  #imagen0 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .tamañoca {
+    width: 750px;
+    margin-left: 22%;
+    
   }
-
-  #imagen0:hover{
-    transform:scale(1.1); transition: all 0.7s;
-  }
-
-  #imagen0 img {
-    width: 55%; 
-  }
-
-  #imagen2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #imagen2 img {
-    width: 55%; 
-  }
-
-  #imagen2:hover{
-    transform:scale(1.1); transition: all 0.7s;
-  }
-
-  #imagen4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #imagen4:hover{
-    transform:scale(1.1); transition: all 0.7s;
-  }
-
-  #imagen4 img {
-    width: 55%; 
-  }
-
-  #imagen3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #imagen3:hover{
-    transform:scale(1.1); transition: all 0.7s;
-  }
-
-  #imagen3 img {
-    width: 55%; 
-  }
-
-  .h1:hover{
-    transform:scale(1.1); transition: all 0.7s;
-  }
+  

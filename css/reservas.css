@@ -18,16 +18,14 @@
 
 
 /* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS TONIIIIIII */
-  .titulo1 {
-  position: absolute;
-  top: 33%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color:#fff;
-  font-size: 35px;
+  .margen{
+    margin:120px;
   }
-  #principio{
-    height: 120px;
+  .fondo{
+    background-image: url(../img/maderareserva2.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    height: 500px;
   }
   #personas{
     width: 300px;
@@ -43,33 +41,4 @@
     width: 150px;
     height: 35px;
     text-align: center;
-  }
-  .maderareserva{
-    background-size: cover;
-  }
-  #div2{
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: white;
-  text-align: center;
-  font-size: 25px;
-  }
-  #formulario{
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  }
-  #hacerreserva{
-    position: absolute;
-    top: 40%;
-  }
-  #input input[type="button"] {
-    width: 180px; 
-    height: 50px; 
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #f90;
   }
