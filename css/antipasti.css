@@ -14,7 +14,6 @@ body {
   background-image: url(../img/antipasti1back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 #principio {
@@ -42,7 +41,6 @@ body {
 }
 
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
-
 
 /* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS CESAAAAAR */
 

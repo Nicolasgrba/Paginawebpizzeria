@@ -6,6 +6,10 @@
     font-family: pizzeria;
     
 }
+  a {
+    color: white; 
+    text-decoration: none; 
+  }
 
   body {
     margin: 0;
@@ -22,7 +26,7 @@
  
   #eslogan {
     height: 550px;
-    text-align: center; 
+    
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -30,6 +34,7 @@
   }
   
   .grande {
+    text-align: center; 
     font-size: 40px; 
     color: white; 
     margin: 0; 
@@ -39,6 +44,18 @@
     font-size: 30px;
     color: white; 
     margin: 0; 
+  }
+
+  .eslogan{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  footer {
+    position: fixed;
   }
   
   
