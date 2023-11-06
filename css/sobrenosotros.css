@@ -51,8 +51,11 @@
  
     text-align: center;
     background-color: #000000;
-    width: 60%;
-    flex: 1;
+    width: 40%;
+    flex:1;
+    color:#fff;
+
+  
   }
 
   .titulo1 {
@@ -72,12 +75,7 @@
     word-spacing: 0.2em; 
   }
 
-  #redes {  
-    display: flex; 
-    align-items: center;
-    margin-left: 200px;
-    margin-right: 20px;
-  }
+ 
 
   #redes a {
     margin: 0 10px; 
@@ -88,13 +86,14 @@
   }
   
 
-  #div2 {
+  .div2 {
 
     text-align: center;
-    width: 60%;
     background-color: #000000;
-    flex: 1;
-    
+    width: 40%;
+    flex:1;
+    color:#fff;
+
     
   }
 
