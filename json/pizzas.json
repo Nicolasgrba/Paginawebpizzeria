@@ -1,0 +1,26 @@
+{
+    "carta_de_pizzas": [
+      {
+        "nombre": "BIANCA AL PROSCIUTTO",
+        "ingredientes": ["Base bianca de mozzarella fiordilatte", " prosciutto cotto", "parmesano"], 
+        "precio": 12
+      },
+      {
+        "nombre": "OFELIA TARTUFONA",
+        "ingredientes": ["Base bianca de mozzarella fiordilatte", " mortadella tartufata di Bologna", "crema di Grana Padano","lascas de parmesano"],
+        "precio": 11
+      },
+      {
+        "nombre": "DIAVOLA",
+        "ingredientes": ["Base de tomate San Marzano", "salame picante napolitano", " mozzarella fiordilatte ", "albahaca"],
+        "precio": 10
+      },
+      {
+        "nombre": "NOBILE BORGHESE",
+        "ingredientes": ["Base de crema de trufa", " mix de setas salteadas con ajo", "speck y mozzarella fiordilatte"],
+        "precio": 13
+      }
+     
+    ]
+  }
+  

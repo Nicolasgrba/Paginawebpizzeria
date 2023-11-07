@@ -1,0 +1,45 @@
+{
+    "carta_de_antipastis": [
+        {
+            "nombre": "Bresaola",
+            "ingredientes": [
+                "Lonchas de bresaola",
+                "rúcula",
+                "parmesano",
+                "limón",
+                "pesto de pistacho siciliano"
+            ],
+            "precio": 7
+        },
+        {
+            "nombre": "Cozze alla pugliese",
+            "ingredientes": [
+                "Mejillones con ajo",
+                "tomate",
+                "perejil",
+                "guindilla"
+            ],
+            "precio": 8
+        },
+        {
+            "nombre": "Pane con pomodoro",
+            "ingredientes": [
+                "Pan con tomate",
+                "ajo",
+                "AOVE",
+                "orégano"
+            ],
+            "precio": 10
+        },
+        {
+            "nombre": "Aceitunas Marinadas",
+            "ingredientes": [
+                "aceitunas verdes y negras",
+                "ajo",
+                "romero",
+                "aceite de oliva"
+            ],
+            "precio": 5
+        }
+    ]
+}

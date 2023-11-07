@@ -3,46 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Crea tu pizza</title>
+    <script type="text/javascript" src="/js/creatupizza.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/general.css">
     <link rel="stylesheet" type="text/css" href="/css/creatupizza.css">
 </head>
 <body>
     <header>
-        <div id="logo">
-            <img src="img/logo.PNG" id="logohead">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="reservas.html">Reservas&nbsp;&nbsp;&nbsp;</a></li>
-                <li><a href="creatupizza.html">Crea tu pizza &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-            </ul>
-        </nav>
-        <div>
-            <a href="index.html">
-                <img src="img/letrero.png" id="letrerohead">
-            </a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="cartainterfaz.html">Carta</a></li>
-                <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
-            </ul>
-        </nav>
-        <div class="contact">
-            <a href="mailto:Tonypepperoni@gmail.com">
-                <img src="img/email3.png" id="email">
-            </a>
-        </div>
-        <div class="tonys">
-            <img src="img/pizzero.png" id="pizzero">
-        </div>
-        
+        <a id="reservas" href="reservas.html">Reservas</a>
+        <a id="reservas" href="creatupizza.html">Crea tu pizza </a>
+        <a href="index.html"><img src="img/logo.PNG" alt="Logo" id="logoheader" class="logoheader"/></a>
+        <a id="reservas" href="carta.html">Carta</a>
+        <a id="reservas" href="sobrenosotros.html">Sobre nosotros</a>
     </header>
     <div id="principio"></div>
 <!-- Empieza a programar aquí. Lo de arriba es la interfaz del header no la toques -->
+    
+    <form id="pizza-form" >
+        <!-- Masa -->
+        <h1>CREA TU PIZZA</h1>
+        <fieldset>
+            <h2>Masa:</h2>
+            <input type="radio" name="masa" class="esp" value="masa_fina" required> Masa Fina <p id="linea"></p> <p id="dinero">2 €</p><br>
+            <input type="radio" name="masa" class="esp" value="masa_napoles" required> Masa Napolés<p id="linea"></p><p id="dinero">2,50 €</p><br>
+        </fieldset>
 
+        <!-- Base -->
+        <fieldset>
+            <h2>Base:</h2>
+            <input type="radio" class="esp" name="base" value="tomate_san_marzano" required> Tomate San Marzano<p id="tomate"></p><p id="dinero">1 €</p><br>
+            <input type="radio" class="esp" name="base" value="salsa_pesto" required> Salsa Pesto<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="radio" class="esp" name="base" value="salsa_carbonara" required> Salsa Carbonara<p id="carbonara"></p><p id="dinero">2,50 €</p><br>
+        </fieldset>
 
+        <!-- Ingredientes -->
+        <fieldset>
+            <h2>Ingredientes:</h2>
+            <input type="checkbox" class="esp" value="prosciutto"> Prosciutto <p id="linea"></p> <p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="mozzarella"> Mozzarella<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="4_quesos"> 4 Quesos<p id="linea"></p><p id="dinero">5 €</p><br>
+            <input type="checkbox" class="esp" value="albahaca"> Albahaca<p id="linea"></p><p id="dinero">0,50 €</p><br>
+            <input type="checkbox" class="esp" value="oregano"> Orégano<p id="linea"></p><p id="dinero">0,50 €</p><br>
+            <input type="checkbox" class="esp" value="pepperoni"> Pepperoni<p id="linea"></p><p id="dinero">3 €</p><br>
+            <input type="checkbox" class="esp" value="anchoas"> Anchoas<p id="linea"></p><p id="dinero">5 €</p><br>
+            <input type="checkbox" class="esp" value="pollo"> Pollo<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="huevo"> Huevo<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="ternera"> Ternera picada<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="parmesano"> Parmesano<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="tomate"> Tomate Cherry<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="champiñones"> Champiñones<p id="linea"></p><p id="dinero">2 €</p><br>
+            <input type="checkbox" class="esp" value="cebolla_caramelizada"> Cebolla Caramelizada<p id="cebolla"></p><p id="dinero">3 €</p><br>
+            <input type="checkbox" class="esp" value="guanciale"> Guanciale<p id="linea"></p><p id="dinero">4 €</p><br>
+            <input type="checkbox" class="esp" value="lascas_de_parmesano"> Lascas de Parmesano<p id="parmesano"></p><p id="dinero">3 €</p><br>
+            <input type="checkbox" class="esp" value="jamon_serrano"> Jamón Serrano<p id="linea"></p><p id="dinero">5 €</p><br>
+            <input type="checkbox" class="esp" value="aceitunas_negras"> Aceitunas Negras<p id="aceituna"></p><p id="dinero">2 €</p><br>
+        </fieldset>
+        <div id="espaciado"></div>
+        <div id="input">
+            <input type="button" value="Crear pizza" >
+        </div>
+    </form>
 
-
+    <div id="espacio"></div>
 <!-- Termina de programar aquí. Lo de abajo es la interfaz del footer no la toques -->
     <div class="whatsapp-button">
         <a href="https://wa.me/tunumero" target="_blank">
@@ -50,10 +71,10 @@
         </a>
     </div>
     <footer>
-        <a href="avisolegal.html">&copy;&nbsp; 2023  Aviso  legal &nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="avisolegal.html">&copy;&nbsp; 2023 Aviso legal &nbsp;&nbsp;&nbsp;&nbsp;</a>
         <span class="vertical-bar">|</span>
         <a href="contacto.html">&nbsp;&nbsp;&nbsp;&nbsp; Contacto &nbsp;&nbsp;&nbsp;</a>
-        <img src="img/letrero.png" alt="Logo" class="logo" />
+        <img src="img/letrero.png" alt="Logo" class="logofooter" />
         <a href="politica.html">&nbsp; Política de Cookies</a>
         <span class="vertical-bar">|</span>
         <a href="duda.html">&nbsp;&nbsp;&nbsp;&nbsp; ¿Alguna Duda?</a>

@@ -1,0 +1,25 @@
+{
+    "carta_de_pasta": [
+      {
+        "nombre": "Espaguetis a la Boloñesa",
+        "ingredientes": ["espaguetis", "salsa de carne a la boloñesa", "queso parmesano", "albahaca"],
+        "precio": 12
+      },
+      {
+        "nombre": "Fettuccine Alfredo",
+        "ingredientes": ["fettuccine", "salsa Alfredo", "pollo a la parrilla", "queso parmesano"],
+        "precio": 10
+      },
+      {
+        "nombre": "Lasaña de Vegetales",
+        "ingredientes": ["láminas de lasaña", "salsa bechamel", "berenjenas", "calabacines", "pimientos", "queso mozzarella"],
+        "precio": 11
+      },
+      {
+        "nombre": "Ravioli de Espinacas y Ricotta",
+        "ingredientes": ["ravioli rellenos de espinacas y ricotta", "salsa de tomate", "queso parmesano"],
+        "precio": 10
+      }
+    ]
+  }
+  

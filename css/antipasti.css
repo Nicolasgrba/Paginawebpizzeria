@@ -1,0 +1,85 @@
+@font-face {
+  font-family: pizzeria;
+  src: url(Hagin\ Caps\ Medium.otf);
+}
+
+* {
+  font-family: pizzeria;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/pizzacarta2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+
+/*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
+
+/* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS CÉSAAAAAR */
+.cartaantipasti {
+  align-items: center;
+  margin-right: 1rem;
+}
+
+
+.antipasti {
+  color: #E68C17;
+  text-align: center;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  word-spacing: 0.2em;
+  list-style: none;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+
+
+.carta1{
+  background-image: url(../img/madera18.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carta2{
+  background-image: url(../img/madera18.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.antipasti2 {
+  color: #E68C17;
+  text-align: center;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  word-spacing: 0.2em;
+  list-style: none;
+  font-size: 11px;
+  margin-right: 20px;
+}
+
+
+.titulocarta {
+  color: #ffffff;
+  font-size:4rem;
+  text-align: center;
+}
+
+
+.telefono{
+  color: #E68C17;
+  text-align: center;
+}
+
+#principio {
+  height: 50px;
+}
+
+#final {
+  height: 60px;
+}

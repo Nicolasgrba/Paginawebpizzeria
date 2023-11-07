@@ -3,93 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <title>Sobre Nosotros</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/general.css">
     <link rel="stylesheet" type="text/css" href="/css/sobrenosotros.css">
 </head>
 <body>
     <header>
-        <div id="logo">
-            <img src="img/logo.PNG" id="logohead">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="reservas.html">Reservas&nbsp;&nbsp;&nbsp;</a></li>
-                <li><a href="creatupizza.html">Crea tu pizza &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-            </ul>
-        </nav>
-        <div>
-            <a href="index.html">
-                <img src="img/letrero.png" id="letrerohead">
-            </a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="cartainterfaz.html">Carta</a></li>
-                <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
-            </ul>
-        </nav>
-        <div class="contact">
-            <a href="mailto:Tonypepperoni@gmail.com">
-                <img src="img/email3.png" id="email">
-            </a>
-        </div>
-        <div class="tonys">
-            <img src="img/pizzero.png" id="pizzero">
-        </div>
-        
+        <a id="reservas" href="reservas.html">Reservas</a>
+        <a id="reservas" href="creatupizza.html">Crea tu pizza </a>
+        <a href="index.html"><img src="img/logo.PNG" alt="Logo" id="logoheader" class="logoheader"/></a>
+        <a id="reservas" href="carta.html">Carta</a>
+        <a id="reservas" href="sobrenosotros.html">Sobre nosotros</a>
     </header>
     <div id="principio"></div>
     <!--Aquí empiezas a meter las cosas. No tocar lo de arriba que es la interfaz que está terminada. Solo tienes que meter
     la imagen de fonto de los divs de madera y poner los textos dentro y centrarlo todo --> 
+    <div class="container">
 
-    <div id="titulo">
-        <h1>Sobre Nosotros</h1>
-    </div>
+      <div class="row justify-content-between"> 
+        <div class="col-sm-3 col-md-4 col-lg-3 col-xl-3 bg-black text-white ">
+          <h1 class="h1 m-2">Sobre Nosotros</h1>
+          <p class="texto1 ms-1">Bienvenidos a Tony Pepperoni, un proyecto en el que estamos trabajando cuatro perosonas de segundo de DAW:<br>
+            Gálvez: jefe de equipo. <br>
+            Toni: analista.  <br>
+            César:             <br>
+            Nico: programador. <br>
+            Este proyecto consiste en realizar una página web que simula una pizzería gourmet que tendrá cuatro secciones o partes: <br>
+            Reservas: en esta sección, los clientes ficticios podrán reservar mesa eligiendo la cantidad de personas que van, la hora y el día.<br>
+            Crea tu pizza: en esta sección, los clientes ficticios podrán crear su propia pizza eligiendo entre numerosos ingredientes, bases y masas.<br>
+            Carta: en esta sección, los clientes ficticios podrán ver los platos que se pueden consumir. Hay diferentes cartas dependiendo del tipo de plato (antipasti, pasta, pizza y bebidas).<br>
+            Sobre nosotros: en esta sección se brindará información sobre el trabajo y los integrantes del trabajo. 
+          </p>
+          <div class="redes ms-4 mb-4 mt-4">
+            <a href="https://www.instagram.com/tonypepperoni/" target="_blank">
+            <img src="img/insta48.png" alt="Instagram" class="insta1 ms-3"  id="insta" />
+            </a>
+            <a href="https://www.facebook.com/tonypepperoni/" target="_blank">
+            <img src="img/facebook48.png" alt="Facebook" class="facebook ms-0" id="facebook"/>
+            </a>
+            <a href="https://twitter.com/tonypepperoni" target="_blank">
+            <img src="img/x.png" alt="x"  class="x ms-0" id="x"/>
+            </a>
+            <a href="https://www.tiktok.com/tonypepperoni" target="_blank">
+            <img src="img/tiktok48.png" alt="Tiktok" class="tiktok ms-0" id="tiktok"/>
+            </a>
+          </div>
+        </div>
 
-    <div id="texto">
-        <p>Bienvenidos a Tony Pepperoni, tu destino de pizza gourmet en el corazón del barrio Viapol, Sevilla. Fundada hace dos años por nuestro apasionado propietario, Tony, nuestra pizzería ha estado sirviendo las mejores pizzas de la ciudad con un toque único y delicioso.
+        <div class="col-sm-3 col-md-4 col-lg-3 col-xl-3 bg-black text-white ">
+          <h1 class="h1 m-2">Nuestro Local</h1>
+          <p class="texto1 ms-1">Tony Pepperoni, situado en la pintoresca dirección de C. 
+              Avión Cuatro Vientos, 6, te invitamos a adentrarte en un entorno que combina la autenticidad italiana 
+              con el calor de un ambiente familiar. En Tony Pepperoni, nos enorgullece ofrecer pizzas gourmet que superan tus expectativas. 
+              No somos una pizzería común; somos un rincón culinario donde la calidad y la pasión se fusionan para crear obras 
+              maestras culinarias. Cada ingrediente es seleccionado minuciosamente, y cada pizza es preparada con amor y atención a 
+              los detalles. Ven a visitarnos en C. Avión Cuatro Vientos, 6, y descubre por ti mismo la magia de Tony Pepperoni.
+          </p>
+        </div>
 
-            En Tony Pepperoni, estamos comprometidos a brindar a nuestros clientes la más alta calidad en cada bocado. Nos enorgullece crear pizzas excepcionales utilizando los mejores ingredientes disponibles en el mercado. Nuestro objetivo es que cada experiencia con nosotros sea inolvidable, desde el primer mordisco hasta el último.
-            
-            Una parte especial de nuestra oferta es la posibilidad de crear tu propia pizza. Con nuestro innovador sistema a través de un código QR, puedes acceder a nuestra página web y seleccionar los ingredientes que desees para personalizar tu pizza perfecta. Queremos que tu pizza sea única, al igual que tú.
-            
-            Nuestro equipo está compuesto por más de 20 personas dedicadas que trabajan arduamente para garantizar que tu experiencia en Tony Pepperoni sea excepcional en todos los sentidos. Desde la cocina hasta el servicio en el mostrador, todos estamos comprometidos con la excelencia.
+        
+      </div>
+  </div>   
 
-            ¡Gracias por ser parte de la familia Tony Pepperoni! Esperamos verte pronto en nuestra pizzería para compartir una deliciosa pizza gourmet y una experiencia inolvidable. ¡Te garantizamos que cada visita será un viaje culinario que recordarás con cariño!
-
-            Síguenos en nuestras redes sociales:
-        </p>
-    </div>
-
-    <div id="redes">
-        <a href="https://www.instagram.com/tonypepperoni/" target="_blank">
-            <img src="img/insta48.png" alt="Instagram" id="insta" />
-        </a>
-        <a href="https://www.facebook.com/tonypepperoni/" target="_blank">
-            <img src="img/facebook48.png" alt="Facebook" id="facebook"/>
-        </a>
-        <a href="https://twitter.com/tonypepperoni" target="_blank">
-            <img src="img/x.png" alt="x" id="x"/>
-        </a>
-        <a href="https://www.tiktok.com/tonypepperoni" target="_blank">
-            <img src="img/tiktok48.png" alt="Tiktok" id="tiktok"/>
-        </a>
-    </div>
-
+   
+    <div id="principio"></div>
     <!--Aquí terminas de meter las cosas. No tocar lo de abajo que es la interfaz que está terminada -->
     <div class="whatsapp-button">
         <a href="https://wa.me/tunumero" target="_blank">
             <img src="img/whatsapp.png" alt="WhatsApp" />
         </a>
     </div>
+<div class="tamañoca">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" >
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/restaurante1.jpg" class="d-block w-100" alt="primer slide">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/restaurante4.jpg" class="d-block w-100" alt="segundo slide">
+          </div>
+          <div class="carousel-item">
+            <img src="img/restaurante0.jpg" class="d-block w-100" alt="tercer slide">
+          </div>
+          <div class="carousel-item">
+            <img src="img/restaurante 3.jpg" class="d-block w-100" alt="cuarto slide">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div id="principio"></div>
+</div>
+  
     <footer>
-        <a href="avisolegal.html">&copy;&nbsp; 2023  Aviso  legal &nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="avisolegal.html">&copy;&nbsp; 2023 Aviso legal &nbsp;&nbsp;&nbsp;&nbsp;</a>
         <span class="vertical-bar">|</span>
         <a href="contacto.html">&nbsp;&nbsp;&nbsp;&nbsp; Contacto &nbsp;&nbsp;&nbsp;</a>
-        <img src="img/letrero.png" alt="Logo" class="logo" />
+        <img src="img/letrero.png" alt="Logo" class="logofooter" />
         <a href="politica.html">&nbsp; Política de Cookies</a>
         <span class="vertical-bar">|</span>
         <a href="duda.html">&nbsp;&nbsp;&nbsp;&nbsp; ¿Alguna Duda?</a>
     </footer>
+    
 
 </body>
 </html>

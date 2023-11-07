@@ -1,176 +1,42 @@
 @font-face {
-    font-family: pizzeria;
-    src: url(Hagin\ Caps\ Medium.otf);
+  font-family: pizzeria;
+  src: url(Hagin\ Caps\ Medium.otf);
 }
-*{
-    font-family: pizzeria;
-    
+
+* {
+  font-family: pizzeria;
+
 }
-  body {
-    margin: 0;
-    padding: 0;
-    background-image: url(../img/pizzacarta2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  
-  header {
-    background-color: #000000;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 30px;
-    max-height: 50px;
-    position: fixed; /* Hace que el encabezado sea fijo */
-    top: 0; /* Lo coloca en la parte superior de la ventana */
-    width: 100%; /* Ocupa todo el ancho de la ventana */
-    z-index: 1000; /* Para asegurarse de que esté por encima de otros elementos */
-  }
-  
-  nav ul {
-    margin-top: 8px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin-left: 50px; /* Espacio entre elementos de la lista */
-    font-size:xx-large;
-     
-  }
 
-  nav li:hover {
-    transform:scale(1.2); transition: all 0.7s;
-  }
-
-  #logohead {
-    width: 65px;
-    height: 65px;
-  }
-
-  #logohead:hover {
-    transform:scale(1.2); transition: all 0.7s;
-  }
-
-  #letrerohead {
-    width: 270px;
-    height: 70px;
-    margin-bottom:20px;
-    margin-top: 10px;
-  }
-
-  #letrerohead:hover {
-    transform:scale(1.2); transition: all 0.7s;
-  }
-
-  #email {
-    background-color: #000000;
-    width: 50px; 
-    height: 30px; 
-  }
-
-  #email:hover {
-    transform:scale(1.2); transition: all 0.7s;
-  }
-
-  #pizzero {
-    width: 50px;
-    height: 50px; 
-    margin-right: 60px; /* Agrega un margen derecho para evitar el corte */
-    margin-left: auto; /* Mueve la imagen hacia la derecha */
-  }
-
-  #pizzero:hover {
-    transform:scale(1.2); transition: all 0.7s;
-  }
-
-  #principio{
-    height: 160px;
-  }
-
-  #menu {
-    text-align: center;
-  }
-  
-  #menufoto {
-    display: block;
-    margin: 0 auto;
-    width: 330px;
-    height: 510px;
-  }
-
-  #menufoto:hover {
-    transform:scale(1.2); transition: all 0.7s;
-  }
-
-  #final{
-    height: 60px;
-  }
-
-  .whatsapp-button {
-    position: fixed;
-    top: 50%; /* Posiciona el botón verticalmente en el centro */
-    right: 20px;
-    transform: translateY(-50%); /* Ajusta la posición vertical */
-    z-index: 1000;
-  }
-  
-  .whatsapp-button a {
-    display: block;
-    background-color: #25d366; /* Color de fondo del botón de WhatsApp */
-    padding: 10px;
-    border-radius: 50%; /* Para hacer un círculo */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .whatsapp-button img {
-    width: 50px; /* Ajusta el tamaño del icono según tus preferencias */
-    height: 50px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  a {
-    color: white; /* Color del texto del enlace */
-    text-decoration: none; /* Elimina el subrayado del enlace */
-  }
-  
-  footer {
-    background-color: #000000;
-    color: #fff;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    height: 60px; /* Aumenta la altura del footer */
-    bottom: 0;
-  }
-
-  footer * {
-    margin-right: 20px;
-    margin-top: 10px; /* Agrega un margen superior para centrar el contenido verticalmente */
-  }
-
-  .vertical-bar {
-    margin: 0 10px;
-    display: inline-block;
-  }
-
-  .logo {
-    width: 150px;
-    height: auto;
-    vertical-align: middle;
-  }
-
-  
-  
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/pizzacarta2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
+#menufoto {
+  width: 250px;
+  height: 430px;
+}
 
+#menufoto:hover {
+  transform:scale(1.2); transition: all 0.7s;
+}
 
-/* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS CESAAAAAR */
+#principio {
+  height: 50px;
+}
+
+#final {
+  height: 60px;
+}
+
+.contenedor{
+  align-items: center;
+}
