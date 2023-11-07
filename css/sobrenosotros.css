@@ -17,7 +17,8 @@ body {
 }
 
 #principio{
-  height: 120px;
+  height: 60px;
+  
 }
 
 #insta:hover {
@@ -44,20 +45,6 @@ body {
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
 
 /* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS NICOOOOOOO */
-.container1 {
-  display: flex;
-}
-.div1 {
-
-  text-align: center;
-  background-color: #000000;
-  width: 40%;
-  flex:1;
-  color:#fff;
-
-
-}
-
 .titulo1 {
   left: 50%;
   color:#fff;
@@ -65,7 +52,6 @@ body {
 }
 
 .texto1 {
- 
   text-align: center;
   color: #fff;
   margin-left: 10px;
@@ -75,43 +61,24 @@ body {
   word-spacing: 0.2em; 
 }
 
-
-
-#redes a {
-  margin: 0 10px; 
-}
-
-p {
-  font-family: "Times New Roman", Times, serif;
-}
-
-
-.div2 {
-
+.col-sm-3 {
+  line-height: 25px;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid dimgray;
   text-align: center;
   background-color: #000000;
   width: 40%;
-  flex:1;
-  color:#fff;
-
+}
+.h1{
+  border-radius: 10px;
+  border: 1px solid dimgray;
   
 }
 
-.titulo2 {
-  left: 50%;
-  color:#fff;
-}
 
-.texto2 {
-  left: 50%;
-  text-align: center;
-  color: #fff;
-  margin-left: 20px;
-  margin-right: 20px;
-  letter-spacing: 0.1em;
-  line-height: 1.5; 
-  word-spacing: 0.2em; 
-
+p {
+  font-family: "Times New Roman", Times, serif;
 }
 
 
@@ -125,6 +92,14 @@ p {
 
 .tamañoca {
   width: 750px;
-  margin-left: 22%;
+  margin-left: 27%;
+
   
+}
+
+.col-sm-3 {
+  line-height: 25px;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid dimgray;
 }
