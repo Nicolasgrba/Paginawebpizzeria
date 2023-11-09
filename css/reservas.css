@@ -10,43 +10,51 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background-image: url(../img/pizzacarta.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
-.final{
-  height: 180px;
-}
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
 
 
 /* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS TONIIIIIII */
-  .margen{
-    margin:120px;
+#personas{
+  width: 300px;
+  height: 35px;
+  text-align: center;
+}
+#hora{
+  width: 300px;
+  height: 35px;
+  text-align: center;
+}
+#fecha{
+  width: 150px;
+  height: 35px;
+  text-align: center;
+}
+.contenedor{
+  width: 1000px;
+  margin-top: 80px;
+  margin-left: 180px;
+}
+@media (max-width: 500px){
+  .contenedor{
+    width: 360px;
+    height: 400px;
+    margin-left: 15px;
+    margin-top: 100px;
+    align-items: center;
   }
-  .container{
-    background-color: black;
-    border-radius: 10px;
-    width: 800px;
-    height: 500px;
+}
+
+@media ( min-width: 501px) and ( max-width: 800px) {
+  .contenedor{
+    width: 600px;
+    height: 400px;
+    margin-left: 70px;
+    margin-top: 150px;
+    align-items: center;
   }
- 
-  #personas{
-    width: 300px;
-    height: 35px;
-    text-align: center;
-  }
-  #hora{
-    width: 300px;
-    height: 35px;
-    text-align: center;
-  }
-  #fecha{
-    width: 150px;
-    height: 35px;
-    text-align: center;
-  }
+}
