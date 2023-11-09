@@ -103,6 +103,11 @@ p {
   border-radius: 10px;
   border: 1px solid dimgray;
 }
-.margen{
+.col-sm-12{
+  line-height: 25px;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid dimgray;
   margin-bottom: 10%;
+  
 }
