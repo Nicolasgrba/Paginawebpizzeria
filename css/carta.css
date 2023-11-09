@@ -29,14 +29,28 @@ body {
   transform:scale(1.2); transition: all 0.7s;
 }
 
-#principio {
-  height: 50px;
-}
-
-#final {
-  height: 60px;
-}
-
 .contenedor{
   align-items: center;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 100px;
 }
+
+@media (max-width: 500px) {
+  #menufoto {
+    width: 150px;
+    height: 230px;
+  }
+  .contenedor{
+    margin-bottom: 100px;
+    align-items: center;
+  }
+
+}
+
+@media (min-width: 501px) and (max-width: 800px){
+  #menufoto {
+    width: 280px;
+    height: 400px;
+  }
+ }
