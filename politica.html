@@ -5,15 +5,31 @@
     <title>Politica</title>
     <link rel="stylesheet" type="text/css" href="/css/politica.css">
     <link rel="stylesheet" type="text/css" href="/css/general.css">
+    <script type="text/javascript" src="/js/index.js"></script>
 </head>
 <body>
-    <header>
-        <a id="reservas" href="reservas.html">Reservas</a>
-        <a id="reservas" href="creatupizza.html">Crea tu pizza </a>
-        <a href="index.html"><img src="img/logo.PNG" alt="Logo" id="logoheader" class="logoheader"/></a>
-        <a id="reservas" href="carta.html">Carta</a>
-        <a id="reservas" href="sobrenosotros.html">Sobre nosotros</a>
-    </header>
+    <nav>
+        <a href="index.html" class="logoheader">
+            <img src="img/letrero.png" alt="Logo de la Pizzería">
+        </a>
+        <ul class="menu">
+            <li><a href="reservas.html">Reserva</a></li>
+            <li><a href="creatupizza.html">Crea tu Pizza</a></li>
+            <li><a href="carta.html">Carta</a></li>
+            <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+        </ul>
+        <div class="menuicono">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="movilmenu">
+            <li><a id="res" href="reservas.html">Reserva</a></li>
+            <li><a href="creatupizza.html">Crea tu Pizza</a></li>
+            <li><a href="carta.html">Carta</a></li>
+            <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+        </ul>
+    </nav>
     <div id="principio"></div>
     <main>
         <section id="politica">
@@ -83,14 +99,13 @@
         </a>
     </div>
     <footer>
-        <a href="avisolegal.html">&copy;&nbsp; 2023 Aviso legal &nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a class="elemento" href="avisolegal.html"> Aviso legal </a>
         <span class="vertical-bar">|</span>
-        <a href="contacto.html">&nbsp;&nbsp;&nbsp;&nbsp; Contacto &nbsp;&nbsp;&nbsp;</a>
+        <a class="elemento" href="contacto.html"> Contacto </a>
         <img src="img/letrero.png" alt="Logo" class="logofooter" />
-        <a href="politica.html">&nbsp; Política de Cookies</a>
+        <a class="elemento" href="politica.html"> Cookies</a>
         <span class="vertical-bar">|</span>
-        <a href="duda.html">&nbsp;&nbsp;&nbsp;&nbsp; ¿Alguna Duda?</a>
+        <a class="elemento" href="duda.html">Duda?</a>
     </footer>
-
 </body>
 </html>

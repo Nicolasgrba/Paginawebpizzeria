@@ -5,32 +5,148 @@
 
 * {
   font-family: pizzeria;
-
 }
 
-header {
-  background-color: #000000;
+a{
+  text-decoration: none;
   color: #fff;
-  text-align: center;
-  width: 100%;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 25px;
+}
+
+.logoheader img {
+  width: 220px;
   height: 60px;
 }
 
-#reservas{
-  font-size: xx-large;
-}
-
-#reservas:hover {
+.logoheader img:hover{
   transform: scale(1.2);
-  transition: all 0.7s;
+  transition: all 0.9s;
 }
 
-#logoheader:hover {
-  transform: scale(1.2);
-  transition: all 0.7s;
+.menu {
+  margin-top: 10px;
+  font-size: 1.8em;
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #FF9900;
+}
+
+.menuicono {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menuicono span {
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  margin: 4px 0;
+}
+
+.movilmenu {
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: #000;
+  top: 60px;
+  right: 20px;
+  z-index: 1;
+}
+
+.movilmenu.active {
+  display: flex;
+}
+
+.elemento:hover{
+  color: #FF9900; 
+}
+
+/* Estilos nav para tablet */
+@media (max-width: 768px) {
+  nav{
+    height: 90px;
+  }
+
+  .menu {
+    display: none; 
+  }
+
+  .logoheader img {
+    width: 200px;
+    height: 60px;
+  }
+
+  .menuicono {
+    display: flex;
+  }
+
+  .movilmenu.active {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    background-color: #000;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .movilmenu.active a {
+      font-size: 2em; 
+      text-align: center;
+      margin: 10px 0; 
+      color: #fff;
+      transition: color 0.3s;
+  }
+
+  .movilmenu.active a:hover {
+      color: #FF9900; 
+  }
+
+  .movilmenu.active a:first-child {
+      margin-top: 30px; 
+  }
+
+  .movilmenu.active a:last-child {
+      margin-bottom: 30px; 
+  }
 }
 
 
+/* Estilos nav movil */
+@media (max-width: 540px) {
+  nav{
+    height: 90px;
+  }
+  
+  .logoheader img {
+    width: 190px;
+    height: 55px;
+  }
+}
 
 .whatsapp-button {
   position: fixed;
@@ -62,8 +178,6 @@ header {
 }
 
 a {
-  color: white;
-  text-decoration: none;
   margin-right: 4rem;
 }
 
@@ -75,6 +189,7 @@ footer {
   width: 100%;
   height: 60px;
   bottom: 0;
+  font-size: 1.2em;
 }
 
 footer * {
@@ -83,7 +198,6 @@ footer * {
 }
 
 .vertical-bar {
-  margin: 0 10px;
   display: inline-block;
 }
 
@@ -99,6 +213,60 @@ footer * {
   vertical-align: middle;
 }
 
-.final{
-  height: 180px;
+footer .elemento:nth-child(1)::before {
+  content: "2023 ";
+}
+
+footer .elemento:nth-child(5)::before {
+  content: "Política de ";
+}
+
+footer .elemento:nth-child(7)::before {
+  content: "¿Alguna ";
+}
+
+
+/* Estilos footer para tablet */
+@media (max-width: 768px) {
+  .whatsapp-button img {
+    width: 60px; /* Ajusta el tamaño de la imagen en dispositivos móviles */
+    height: 60px;
+  }
+  footer {
+    
+    font-size: 1.2em;
+  }
+
+  footer .elemento:nth-child(1)::before {
+    content: ""; 
+  }
+
+  footer .elemento:nth-child(5)::before {
+    content: ""; 
+  }
+
+  footer .elemento:nth-child(7)::before {
+    content: "¿"; 
+  }  
+}
+
+/* Estilos nav para movil */
+@media (max-width: 540px) {
+
+.whatsapp-button img {
+  width: 40px; /* Ajusta el tamaño de la imagen en dispositivos móviles */
+  height: 40px;
+}
+  .logofooter{
+    display: none;
+  }
+
+  footer{
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 8px;
+  }
+  .vertical-bar{
+    display: none;
+  }
 }
