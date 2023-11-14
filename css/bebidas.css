@@ -84,3 +84,30 @@ body {
 }
 
 
+@media (max-width:500px) {
+  nav{
+    margin-bottom: 50px;
+  }
+  .footer{
+    margin-top: 55px;
+  }
+
+}
+
+@media (min-width:501px) and (max-width:800px) {
+  nav{
+    margin-bottom: 50px;
+  }
+  .footer{
+    margin-top: 55px;
+  }
+  
+}
+
+@media (min-width:801px) {
+  nav{
+    margin-bottom: 50px;
+  }
+
+
+}
