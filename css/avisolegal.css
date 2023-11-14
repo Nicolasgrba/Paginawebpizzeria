@@ -7,28 +7,17 @@ body {
   background-attachment: fixed;
   color: white;
 }
-.container{
-  background-color: black;
-  border-radius: 10px;
-  height:1000px;
-  width: 600px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  margin-left: 400px;
-}
-#principio{
-  height: 120px;
-} 
+
 #legal{
   line-height: 25px;
   background-color: black;
   border-radius: 10px;
   border: 1px solid dimgray;
+  margin-top: 50px;
+  margin-bottom: 40px;
   margin-left: 300px;
   width: 60%;
+  height: 1000px;
 }
 
 #titulolegal{
@@ -47,17 +36,14 @@ h1:hover{
   transform:scale(1.2); transition: all 0.7s;
 }
 
-#espacio{
-  height: 80px;
-}
-
 #fotologo {
+  margin-bottom: 120px;
   text-align: center; 
 }
 
 #logof {
-  width: 500px; 
-  height: auto;
+  height: 380px;
+  width: 380px;
 }
 
 h2{
@@ -68,5 +54,35 @@ p{
   text-align: center;
 }
 
+#margenes {
+  padding-left: 30px; 
+  padding-right: 30px; 
+}
+
+@media (max-width: 768px) {
+  #legal{
+    margin-left: 75px;
+    height: 1150px;
+    width: 80%;
+  }
+
+  #logof{
+    height: 320px;
+    width: 320px;
+  }
+}
+
+@media (max-width: 540px) {
+  #legal{
+    margin-left: 20px;
+    height: 1700px;
+    width: 90%;
+  }
+
+  #logof{
+    height: 200px;
+    width: 200px;
+  }
+}
 
 

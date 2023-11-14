@@ -42,6 +42,16 @@ body {
   transform:scale(1.2); transition: all 0.7s;
 }
 
+.redes{
+  text-align: center; 
+}
+
+.redes a {
+  display: inline-block; 
+  margin-right: 20px; 
+}
+
+
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
 
 /* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS NICOOOOOOO */

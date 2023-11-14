@@ -33,55 +33,139 @@
             <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
         </ul>
     </nav>
-    <div id="principio"></div>
-<!-- Empieza a programar aquí. Lo de arriba es la interfaz del header no la toques -->
-    
-    <form id="pizza-form" >
-        <!-- Masa -->
+
+
+<div class="container">
+    <div class="row text-white">
         <h1>CREA TU PIZZA</h1>
-        <fieldset>
-            <h2>Masa:</h2>
-            <input type="radio" name="masa" class="esp" value="masa_fina" required> Masa Fina <p id="linea"></p> <p id="dinero">2 €</p><br>
-            <input type="radio" name="masa" class="esp" value="masa_napoles" required> Masa Napolés<p id="linea"></p><p id="dinero">2,50 €</p><br>
-        </fieldset>
-
-        <!-- Base -->
-        <fieldset>
-            <h2>Base:</h2>
-            <input type="radio" class="esp" name="base" value="tomate_san_marzano" required> Tomate San Marzano<p id="tomate"></p><p id="dinero">1 €</p><br>
-            <input type="radio" class="esp" name="base" value="salsa_pesto" required> Salsa Pesto<p id="linea"></p><p id="dinero">2 €</p><br>
-            <input type="radio" class="esp" name="base" value="salsa_carbonara" required> Salsa Carbonara<p id="carbonara"></p><p id="dinero">2,50 €</p><br>
-        </fieldset>
-
-        <!-- Ingredientes -->
-        <fieldset>
-            <h2>Ingredientes:</h2>
-            <input type="checkbox" class="esp" value="prosciutto"> Prosciutto <p id="linea"></p> <p id="dinero">2 €</p><br>
-            <input type="checkbox" class="esp" value="mozzarella"> Mozzarella<p id="linea"></p><p id="dinero">2 €</p><br>
-            <input type="checkbox" class="esp" value="4_quesos"> 4 Quesos<p id="linea"></p><p id="dinero">5 €</p><br>
-            <input type="checkbox" class="esp" value="albahaca"> Albahaca<p id="linea"></p><p id="dinero">0,50 €</p><br>
-            <input type="checkbox" class="esp" value="oregano"> Orégano<p id="linea"></p><p id="dinero">0,50 €</p><br>
-            <input type="checkbox" class="esp" value="pepperoni"> Pepperoni<p id="linea"></p><p id="dinero">3 €</p><br>
-            <input type="checkbox" class="esp" value="anchoas"> Anchoas<p id="linea"></p><p id="dinero">5 €</p><br>
-            <input type="checkbox" class="esp" value="pollo"> Pollo<p id="linea"></p><p id="dinero">2 €</p><br>
-            <input type="checkbox" class="esp" value="huevo"> Huevo<p id="linea"></p><p id="dinero">2 €</p><br>
-            <input type="checkbox" class="esp" value="ternera"> Ternera picada<p id="linea"></p><p id="dinero">2 €</p><br>
-            <input type="checkbox" class="esp" value="parmesano"> Parmesano<p id="linea"></p><p id="dinero">2 €</p><br>
-            <input type="checkbox" class="esp" value="tomate"> Tomate Cherry<p id="linea"></p><p id="dinero">2 €</p><br>
-            <input type="checkbox" class="esp" value="champiñones"> Champiñones<p id="linea"></p><p id="dinero">2 €</p><br>
-            <input type="checkbox" class="esp" value="cebolla_caramelizada"> Cebolla Caramelizada<p id="cebolla"></p><p id="dinero">3 €</p><br>
-            <input type="checkbox" class="esp" value="guanciale"> Guanciale<p id="linea"></p><p id="dinero">4 €</p><br>
-            <input type="checkbox" class="esp" value="lascas_de_parmesano"> Lascas de Parmesano<p id="parmesano"></p><p id="dinero">3 €</p><br>
-            <input type="checkbox" class="esp" value="jamon_serrano"> Jamón Serrano<p id="linea"></p><p id="dinero">5 €</p><br>
-            <input type="checkbox" class="esp" value="aceitunas_negras"> Aceitunas Negras<p id="aceituna"></p><p id="dinero">2 €</p><br>
-        </fieldset>
-        <div id="espaciado"></div>
-        <div id="input">
-            <input type="button" value="Crear pizza" >
+        <div class="col-md-6">
+            <!-- Masa -->
+            
+            <fieldset>
+                <h2>Masa:</h2>
+                <label class="d-block">
+                    <input type="radio" name="masa" class="esp" value="masa_fina" required>
+                    Masa Fina <span class="dinero">2 €</span>
+                </label>
+                <label class="d-block">
+                    <input type="radio" name="masa" class="esp" value="masa_napoles" required>
+                    Masa Napolés <span class="dinero">2,50 €</span>
+                </label>
+            </fieldset>
         </div>
-    </form>
+        <div class="col-md-6">
+            <!-- Base -->
+            <fieldset>
+                <h2>Base:</h2>
+                <label class="d-block">
+                    <input type="radio" class="esp" name="base" value="tomate_san_marzano" required>
+                    Tomate San Marzano <span class="dinero">1 €</span>
+                </label>
+                <label class="d-block">
+                    <input type="radio" class="esp" name="base" value="salsa_pesto" required>
+                    Salsa Pesto <span class="dinero">2 €</span>
+                </label>
+                <label class="d-block">
+                    <input type="radio" class="esp" name="base" value="salsa_carbonara" required>
+                    Salsa Carbonara <span class="dinero">2,50 €</span>
+                </label>
+            </fieldset>
+        </div>
 
-    <div id="espacio"></div>
+    
+      
+        <h2 id="ingre">Ingredientes:</h2>
+        <div class="col-md-6">
+            <fieldset>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="prosciutto"> Prosciutto
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="prosciutto"> Mozzarella
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="prosciutto"> 4 Quesos
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="prosciutto"> Albahaca
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="prosciutto"> Orégano
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="prosciutto"> Pepperoni
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="prosciutto"> Anchoas
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="prosciutto"> Pollo
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="prosciutto"> Huevo frito
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+            </fieldset>
+        </div>
+        <div class="col-md-6">
+            <!-- Ingredientes - Columna 2 -->
+            <fieldset>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="mozzarella"> Carne ternera
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="mozzarella"> Queso Peccorino
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="mozzarella"> Tomate Cherry
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="mozzarella"> Champiñones
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="mozzarella"> Guanciale
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="mozzarella"> Lascas de Parmesano
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="mozzarella"> Jamón Serrano
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="mozzarella"> Aceitunas Negras
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <label class="ingrediente">
+                    <input type="checkbox" class="esp" value="mozzarella"> Jamon York
+                    <span class="dinero"> ..... 2 €</span>
+                </label>
+                <!-- Repite lo mismo para los demás ingredientes de la columna 2 -->
+            </fieldset>
+        </div>
+    </div>
+    <div class="boton row ">
+        <div class="col-md-12">
+            <div id="input">
+                <input type="button" value="Crear pizza">
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Termina de programar aquí. Lo de abajo es la interfaz del footer no la toques -->
     <div class="whatsapp-button">
         <a href="https://wa.me/tunumero" target="_blank">
