@@ -161,7 +161,7 @@
     <div class="boton row ">
         <div class="col-md-12">
             <div id="input">
-                <input type="button" id="crearPizza" value="Crear pizza" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <input type="button" id="crearPizza" value="Crear pizza">
             </div>
         </div>
     </div>
@@ -203,6 +203,22 @@
         </div>
       </div>
     </div>
-  </div>
+</div>
+<div class="modal fade" id="error" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-dark text-white">
+          <h1 class="modal-title fs-5 justify-content-center" id="exampleModalLabel">Ha ocurrido un error</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-dark text-white">
+            <label for="error">Debes seleccionar una base, una masa y al menos un ingrediente</label>
+            <span id="error"></span><br><br>
+        </div>
+        <div class="modal-footer bg-dark">
+        </div>
+      </div>
+    </div>
+</div>
 </body>
 </html>

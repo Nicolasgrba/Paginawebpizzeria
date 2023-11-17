@@ -8,12 +8,10 @@ function init(){
 
 function eventos(){
 
-   let crearPizza = document.getElementById("crearPizza")
-
   crearPizza.addEventListener("click", function () {
     let masaRadio = document.getElementsByName("masa");
     let baseRadio = document.getElementsByName("base");
-    let ingredientesCheckbox = Array.from(document.getElementsByClassName("ingrediente"));
+    let ingredientesCheckbox = document.getElementsByName("ingrediente");
     
     let masa = "";
     masaRadio.forEach((radio) => {
@@ -35,9 +33,26 @@ function eventos(){
         ingrediente.push(checkbox.value);
       }
     });
+      if (masa !== "" && base !== "" && ingrediente.length > 0) {
+        document.getElementById("masa").textContent = masa;
+        document.getElementById("base").textContent = base;
+        document.getElementById("ingredientes").textContent = ingrediente.join(", ");
+        
+        let error = new bootstrap.Modal(document.getElementById("error"));
+        error.hide();
+        let exampleModal = new bootstrap.Modal(document.getElementById("exampleModal"));
+        exampleModal.show();
+
+      } else{
+        let exampleModal = new bootstrap.Modal(document.getElementById("exampleModal"));
+        exampleModal.hide();
+        let error = new bootstrap.Modal(document.getElementById("error"));
+        error.show();
+      }
+  
     
     document.getElementById("masa").textContent = masa;
     document.getElementById("base").textContent = base;
-    document.getElementsByClassName("ingrediente").textContent = ingrediente.join(", ");
+    document.getElementById("ingredientes").textContent = ingrediente.join(", ");
   });
 }
