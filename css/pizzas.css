@@ -17,13 +17,7 @@ body {
   background-attachment: fixed;
 }
 
-#principio {
-  height: 50px;
-}
 
-#final {
-  height: 60px;
-}
 
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
 
@@ -31,6 +25,8 @@ body {
 .cartapizzas {
   align-items: center;
   margin-right: 1rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .pizzas {

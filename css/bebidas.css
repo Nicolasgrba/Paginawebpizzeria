@@ -19,13 +19,7 @@ body {
 
 
 
-#principio {
-  height: 50px;
-}
 
-#final {
-  height: 160px;
-}
 
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
 
@@ -33,6 +27,8 @@ body {
 .cartabebidas {
   align-items: center;
   margin-right: 1rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 

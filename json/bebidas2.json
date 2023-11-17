@@ -14,6 +14,11 @@
         "nombre": "Margarita",
         "tipo": ["Cóctel con alcohol"],
         "precio": 6.0
+      },
+      {
+        "nombre": "Daiquiri",
+        "tipo": ["Cóctel con alcohol"],
+        "precio": 6.0
       }
     ]
 }
