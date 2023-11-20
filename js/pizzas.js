@@ -1,28 +1,21 @@
-fetch('json/pizzas.json')
-  .then(response => response.json())
-  .then(data => {
-    var pizzas = data.carta_de_pizzas;
-    var pizzasList = document.querySelector('.pizzas');
 
-    pizzas.forEach(pizza => {
-      const pizzaItem = document.createElement('li');
-      pizzaItem.innerHTML = `<h3><u>${pizza.nombre}</u></h3>
-                              <p> ${pizza.ingredientes.join(', ')}</p>
-                              <p> ${pizza.precio}€</p>`;
-      pizzasList.appendChild(pizzaItem);
-    });
-  });
+function crearListaPizzas(url, listaClase) {
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      var pizzas = data.carta_de_pizzas;
+      var pizzasList = document.querySelector(`.${listaClase}`);
 
-fetch('json/pizzas2.json')
-  .then(response => response.json())
-  .then(data => {
-    var pizzas = data.carta_de_pizzas;
-    var pizzasList = document.querySelector('.pizzas2');
-    pizzas.forEach(pizza => {
-      const pizzaItem = document.createElement('li');
-      pizzaItem.innerHTML = `<h3><u>${pizza.nombre}</u></h3>
-                            <p>${pizza.ingredientes.join(', ')}</p>
-                            <p>${pizza.precio}€</p>`;
-      pizzasList.appendChild(pizzaItem);
+      pizzas.forEach(pizza => {
+        const pizzaItem = document.createElement('li');
+        pizzaItem.innerHTML = `<h3><u>${pizza.nombre}</u></h3>
+                                <p> ${pizza.ingredientes.join(', ')}</p>
+                                <p> ${pizza.precio}€</p>`;
+        pizzasList.appendChild(pizzaItem);
+      });
     });
-  });  
+}
+
+crearListaPizzas('json/pizzas.json', 'pizzas');
+crearListaPizzas('json/pizzas2.json', 'pizzas2');
+  
