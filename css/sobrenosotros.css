@@ -122,9 +122,9 @@ p {
   
 }
 .imagentoni{
-  height: 250px;
-  width: 250px;
-  margin-left: 130px;
+  height: 200px;
+  width: 200px;
+  margin-left: 160px;
 }
 img.imagentoni:hover{
   transform: scale(1.1);
@@ -132,24 +132,17 @@ img.imagentoni:hover{
 }
 @media (max-width: 768px) {
   .imagentoni{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     margin-left: 220px;
   }
-  img.imagentoni:hover{
-    transform: scale(1.1);
-    transition: all 0.9s;
-  }
+ 
   
 }
 @media (max-width: 540px) {
   .imagentoni{
-    height: 200px;
-    width: 200px;
+    
     margin-left: 75px;
   }
-  img.imagentoni:hover{
-    transform: scale(1.1);
-    transition: all 0.9s;
-  }
+  
 }

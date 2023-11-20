@@ -1,0 +1,44 @@
+{
+    "SobreNosotros": {
+      "titulo": "Sobre Nosotros",
+      "proyecto": " Bienvenidos a Tony Pepperoni,un proyecto en el que estamos trabajando cuatro personas de segundo de DAW:",
+      "integrantes": [
+        {
+          "nombre": "Gálvez",
+          "rol": "Jefe de equipo"
+        },
+        {
+          "nombre": "Toni",
+          "rol": "Analista"
+        },
+        {
+          "nombre": "César",
+          "rol": "Programador"
+        },
+        {
+          "nombre": "Nico",
+          "rol": "Programador"
+        }
+      ],
+      "descripcionProyecto": "Este proyecto consiste en realizar una página web que simula una pizzería gourmet. La página tendrá cuatro secciones:",
+      "secciones": [
+        {
+          "nombre": "Reservas",
+          "descripcion": "En esta sección, los clientes ficticios podrán reservar mesa eligiendo la cantidad de personas, la hora y el día."
+        },
+        {
+          "nombre": "CreaTuPizza",
+          "descripcion": "En esta sección, los clientes ficticios podrán crear su propia pizza eligiendo entre numerosos ingredientes, bases y masas."
+        },
+        {
+          "nombre": "Carta",
+          "descripcion": "En esta sección, los clientes ficticios podrán ver los platos que se pueden consumir. Hay diferentes cartas dependiendo del tipo de plato (antipasti, pasta, pizza y bebidas)."
+        },
+        {
+          "nombre": "SobreNosotros",
+          "descripcion": "En esta sección se brindará información sobre el trabajo y los integrantes del equipo."
+        }
+      ]
+    }
+    
+  }
