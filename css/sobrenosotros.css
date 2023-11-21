@@ -84,6 +84,8 @@ body {
   border-radius: 10px;
   border: 1px solid dimgray;
   
+  
+  
 }
 
 
@@ -121,10 +123,13 @@ p {
   margin-bottom: 10%;
   
 }
+.carrusel{
+  margin-bottom: 5%;
+}
 .imagentoni{
   height: 200px;
   width: 200px;
-  margin-left: 160px;
+  margin-left: 30%;
 }
 img.imagentoni:hover{
   transform: scale(1.1);
@@ -145,4 +150,11 @@ img.imagentoni:hover{
     margin-left: 75px;
   }
   
+}
+.titulolegal{
+  line-height: 25px;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid dimgray;
+  height: 60px;
 }
