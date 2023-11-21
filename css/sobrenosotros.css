@@ -140,13 +140,14 @@ img.imagentoni:hover{
     height: 200px;
     width: 200px;
     margin-left: 35%;
+    margin-bottom: 2%;
   }
  
   
 }
 @media (max-width: 540px) {
   .imagentoni{
-    
+    margin-bottom: 3%;
     margin-left: 75px;
   }
   
