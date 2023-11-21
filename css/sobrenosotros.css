@@ -41,17 +41,13 @@ body {
 #tiktok:hover {
   transform:scale(1.2); transition: all 0.7s;
 }
-
 .redes{
   text-align: center; 
 }
-
 .redes a {
   display: inline-block; 
   margin-right: 20px; 
 }
-
-
 /*AQUÍ TERMINA EL ESTILO DE LA INTERFAZ QUE ESTÁ YA COMPLETA. NO LA TOQUES */
 
 /* EMPIEZAS A PARTIR DE AQUÍ A PONER TUS COSAS NICOOOOOOO */
@@ -60,17 +56,15 @@ body {
   color:#fff;
   text-align: center;
 }
-
 .texto1 {
   text-align: left;
   color: #fff;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-right: 20px;
   letter-spacing: 0.1em;
   line-height: 1.5; 
   word-spacing: 0.2em; 
 }
-
 .col-sm-3 {
   line-height: 25px;
   background-color: black;
@@ -84,16 +78,15 @@ body {
   border-radius: 10px;
   border: 1px solid dimgray;
   text-align: center;
+  margin: 0;
+  
 }
-
 p {
   font-family: "Times New Roman", Times, serif;
 }
-
 #esp{
   height: 30px;
 }
-
 #espmax{
   height: 50px;
 }
@@ -104,7 +97,6 @@ p {
 
   
 }
-
 .col-sm-3 {
   line-height: 25px;
   background-color: black;
@@ -117,7 +109,6 @@ p {
   border-radius: 10px;
   border: 1px solid dimgray;
   margin-bottom: 10%;
-  
 }
 .carrusel{
   margin-bottom: 5%;
@@ -137,9 +128,7 @@ img.imagentoni:hover{
     width: 200px;
     margin-left: 35%;
     margin-bottom: 2%;
-  }
- 
-  
+  } 
 }
 @media (max-width: 540px) {
   .imagentoni{
